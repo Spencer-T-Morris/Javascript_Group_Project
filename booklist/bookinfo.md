@@ -47,7 +47,6 @@ format:
 ***Description:***
 Technical Knowledge Alone Isn't Enough - Increase Your Income by Leveling Up Your Soft Skills
 Early in his software developer career, John Sonmez discovered that technical knowledge alone isn't enough to break through to the next income level - developers need "soft skills" like the ability to learn new technologies just in time, communicate clearly with management and consulting clients, negotiate a fair hourly rate, and unite teammates and coworkers in working toward a common goal.
-
 As John invested in these skills his career took off, and he became a highly paid, highly sought-after developer and consultant.
 Author: John Sonmez
     Publisher: Simple Programmer, LLC 
@@ -62,7 +61,6 @@ Author: John Sonmez
 [Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
 ***Description***
 Clean code that works--now. This is the seeming contradiction that lies behind much of the pain of programming. Test-driven development replies to this contradiction with a paradox--test the program before you write it.
-
 A new idea? Not at all. Since the dawn of computing, programmers have been specifying the inputs and outputs before programming precisely. Test-driven development takes this age-old idea, mixes it with modern languages and programming environments, and cooks up a tasty stew guaranteed to satisfy your appetite for clean code that works--now.
 Author:  Kent Beck
 Publisher: Addison-Wesley Professional
@@ -79,6 +77,7 @@ Publisher: Addison-Wesley Professional
 Release Date: September 2019
 ISBN: 9780135956977
 Price:
+format:
 
 
 [The Business Value of Developer Relations](https://www.apress.com/gp/book/9781484237472)
@@ -91,25 +90,26 @@ ISBN 978-1-4842-3748-9
 Price:
 Format
 
-
-
-[The Effective Engineer -Edmond Lau]
-
-[Code Complete]
-
-
-[The Clean Coder: A Code of Conduct for Professional Programmers by Robert C. Martin](http://amzn.to/2EqFxlb)	Compared to Law, Medicine, Engineering, Accounting, Programming is a relatevely easy field to enter. There're countless success stories of self-thought programmers. This book introduces to what a Professional Programmer is. The author shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act.
-
-[Clean Code: A Handbook of Agile Software Craftsmanship ](https://www.oreilly.com/library/view/clean-code/9780136083238/) 
-
-***Description:***
- Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. " Another book by Uncle Bob, it is an opinionated book, but full of wonderful resources and advice on how to improve your code.
-    Author: Robert C. Martin
-    Publisher: Prentice Hall
-    Release Date: August 2008
-    ISBN: 9780136083238
+[The Clean Coder: A Code of Conduct for Professional Programmers by Robert C. Martin](http://amzn.to/2EqFxlb)
+***Description***
+	Compared to Law, Medicine, Engineering, Accounting, Programming is a relatevely easy field to enter. There're countless success stories of self-thought programmers. This book introduces to what a Professional Programmer is. The author shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act.
+Author: 
+    Publisher: 
+    Release Date: 
+    ISBN: 
     Price:
     Format:
+
+[Clean Code: A Handbook of Agile Software Craftsmanship ](https://www.oreilly.com/library/view/clean-code/9780136083238/) 
+***Description:***
+ Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. " Another book by Uncle Bob, it is an opinionated book, but full of wonderful resources and advice on how to improve your code.
+Author: Robert C. Martin
+Publisher: Prentice Hall
+Release Date: May 2011
+ISBN: 9780132542913
+    Price:
+    Format:
+    
     website:https://cleancoders.com/videos?gclid=CjwKCAiA58fvBRAzEiwAQW-hzWJd8T-7H0zHBfu7qXNStW0sbtViIppeaQYNiCFOx363hLx6JLhN_RoC5sUQAvD_BwE
 
 [Peopleware: Productive Projects and Teams](http://amzn.to/2sxPBDs)  
