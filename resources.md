@@ -5,24 +5,42 @@ Should I put video length in the description ?
 **Videos**
 
 [JavaScript Shopping Cart Tutorial for Beginners](https://www.youtube.com/watch?v=YeFzkC2awTM)
+
 [JavaScript Project Tutorial: Shopping Cart](https://www.youtube.com/watch?v=q_TZhCWbS3I&t=399s)
-[E-Commerce JavaScript Tutorial - Shopping Cart from Scratch](https://www.youtube.com/watch?v=023Psne_-_4)  
+
+[E-Commerce JavaScript Tutorial - Shopping Cart from Scratch](https://www.youtube.com/watch?v=023Psne_-_4)
+
 
 **Markdown Videos**
 
 [Introduction To Markdown Using Visual Studio Code](https://www.youtube.com/watch?v=pTCROLZLhDM&t=546s)
-[Learn Markdown with VS Code](https://www.youtube.com/watch?v=H3ZiKX6NvcA)  
+
+[Learn Markdown with VS Code](https://www.youtube.com/watch?v=H3ZiKX6NvcA)
+
 [Visual Studio Code markdown preview with Unity3d source code and How to setup markdown in VSCode?](https://www.youtube.com/watch?v=1lFL7pPh5pU)  
+
 [Visual Studio Code Markdown Preview](https://www.youtube.com/watch?v=d9_8e3LrrCI)
+
 [Markdown Shortcuts Extension in Visual Studio Code](https://www.youtube.com/watch?v=sgd8mORgbTw&t=26s)
+
+
+
+
 [Extension link for Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts) 
-[Link for Markdown-all-in-one extension](https://github.com/yzhang-gh/vscode-markdown)- **this is an extension that I am testing right now**
-[Editing Markdown with Visual Studio Code](https://www.youtube.com/watch?v=x1Mkh77ZIXo)  
+
+[Link for Markdown-all-in-one extension](https://github.com/yzhang-gh/vscode-markdown)- 
+**this is an extension that I am testing right now**  
+
+[Editing Markdown with Visual Studio Code](https://www.youtube.com/watch?v=x1Mkh77ZIXo) 
+
 [Brad Traversy-Markdown Crash Course](https://www.youtube.com/watch?v=HUBNt18RFbo) 
+
 [Learn Markdown the fun free easy way with VS Code right here](https://alansimpson.me/vscode/markdown)- online course
+
 
 **VSC tools and tips**
 [VS Code Top-Ten Pro Tips](https://www.youtube.com/watch?v=u21W_tfPVrY&t=204s)
+
 [How to disable IntelliSense in Visual Studio Code for Markdown](https://www.youtube.com/watch?v=uEF0jffuqgg) no sound video only 
  
 
