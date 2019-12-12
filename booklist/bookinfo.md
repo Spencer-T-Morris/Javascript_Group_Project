@@ -60,9 +60,15 @@ ISBN: 0321146530
 Price:
 Format:
 
-[The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition](http://amzn.to/2EHdOfk)  
+[The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/)  
 ***Description:***
 This book is a great read to fill the gaps that have been missed by all other books on this list. The authors will show you what it takes to master our trade, and hopefully they will equipe you with skill and idea to avoid the common pitfalls.
+Author: Andrew Hunt, David Thomas
+Publisher: Addison-Wesley Professional
+Release Date: September 2019
+ISBN: 9780135956977
+Price:
+
 
 [The Business Value of Developer Relations]
 [The Effective Engineer -Edmond Lau]
