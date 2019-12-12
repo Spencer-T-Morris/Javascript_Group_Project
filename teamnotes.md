@@ -12,13 +12,9 @@ Looking at using bookstore API - need to ask if we can use API's since it has no
 for Ryan's eys only 
 
 
-***Ryan***
+**Ryan**
 Hey guys - another attempt
-=======
+
 **spencer**
 push testing
 
-## *12/12/2019*
-
-***Ramona***
-[simple bookstore website idea](https://pragprog.com/) 
