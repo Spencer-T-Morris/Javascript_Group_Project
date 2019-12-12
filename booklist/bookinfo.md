@@ -60,7 +60,7 @@ ISBN: 0321146530
 Price:
 Format:
 
-[The Pragmatic Programmer: From Journeyman to Master by Andrew Hunt and David Thomas](http://amzn.to/2EHdOfk)  
+[The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition](http://amzn.to/2EHdOfk)  
 ***Description:***
 This book is a great read to fill the gaps that have been missed by all other books on this list. The authors will show you what it takes to master our trade, and hopefully they will equipe you with skill and idea to avoid the common pitfalls.
 
