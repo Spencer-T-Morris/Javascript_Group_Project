@@ -143,15 +143,26 @@ Format:
 
 **Fiction**
 
-[The Phoenix Project]
+[The Phoenix Project](https://www.amazon.com/gp/product/0988262592/ref=x_gr_w_bb_glide_sin?ie=UTF8&tag=x_gr_w_bb_glide_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0988262592&SubscriptionId=1MGPYB6YW3HWK55XCGG2)
+***Description***
+Maxine wrangles with an ever-growing to-do list, every lead turning into a dead end:
+“Trying to get a Phoenix build going is like playing Legend of Zelda, if it were written by a sadist, forcing her to adventure far and wide to find hidden keys scattered across the kingdom and given only measly clues from uncaring NPCs.”
+Author: Gene Kim
+Publisher: IT Revolution Press
+Release Date: January 10th 2013
+ISBN-10: 0988262592
+Price:
+Format:
+ 
+
 [The Unicorn Project](https://itrevolution.com/the-unicorn-project/)
 ***Description***
 In The Unicorn Project, we follow Maxine, a senior lead developer and architect, as she is exiled to the Phoenix Project, to the horror of her friends and colleagues, as punishment for contributing to a payroll outage. She tries to survive in what feels like a heartless and uncaring bureaucracy and to work within a system where no one can get anything done without endless committees, paperwork, and approvals.
 
 The Age of Software is here, and another mass extinction event looms—this is a story about rebel developers and business leaders working together, racing against time to innovate, survive, and thrive in a time of unprecedented uncertainty…and opportunity.
  Author: Gene Kim
-Publisher: Prentice Hall
-Release Date: September 2004
-ISBN: 0131177052
+Publisher: IT Revolution Press
+Release Date: November 26, 2019
+ISBN-10: 1942788762
 Price:
 Format:
