@@ -70,7 +70,18 @@ ISBN: 9780135956977
 Price:
 
 
-[The Business Value of Developer Relations]
+[The Business Value of Developer Relations](https://www.apress.com/gp/book/9781484237472)
+***Description***
+Discover the true value of Developer Relations as you learn to build and maintain positive relationships with your developer community. Use the principles laid out in this book to walk through your company goals and discover how you can formulate a plan tailored to your specific needs.
+Author:   Mary Thengvall
+Publisher: Apress
+Release Date: 2018
+ISBN 978-1-4842-3748-9
+Price:
+Format
+
+
+
 [The Effective Engineer -Edmond Lau]
 [Code Complete]
 
