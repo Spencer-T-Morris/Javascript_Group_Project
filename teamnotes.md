@@ -9,16 +9,16 @@ Looking at using bookstore API - need to ask if we can use API's since it has no
 [What Are APIs and How Do They Work?](https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work)  
 
 
-
-push test
-push test 2.0
-Hi Spence :)
-=======
+ramona can you see this merge conlict resolved
 
 ***Ryan***
 Hey guys - another attempt
 =======
 **spencer**
 push testing
+
+sams push tests
+push testing...
+push test again
 
 
