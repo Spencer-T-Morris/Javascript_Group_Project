@@ -166,3 +166,21 @@ Release Date: November 26, 2019
 ISBN-10: 1942788762
 Price:
 Format:
+
+
+[Once Upon an Algorithm: How Stories Explain
+Computing]()
+
+[coders](https://www.penguinrandomhouse.com/books/539883/coders-by-clive-thompson/)
+***description***
+ABOUT CODERS
+Hello, world.
+
+Facebook’s algorithms shaping the news. Self-driving cars roaming the streets. Revolution on Twitter and romance on Tinder. We live in a world constructed of code–and coders are the ones who built it for us. From acclaimed tech writer Clive Thompson comes a brilliant anthropological reckoning with the most powerful tribe in the world today, computer programmers, in a book that interrogates who they are, how they think, what qualifies as greatness in their world, and what should give us pause. They are the most quietly influential people on the planet, and Coders shines a light on their culture.
+
+Author: CLIVE THOMPSON
+Publisher:  Penguin Books
+Release Date: Mar 24, 2020
+ISBN 9780735220560
+Price:
+Format:
