@@ -18,3 +18,7 @@ Hey guys - another attempt
 **spencer**
 push testing
 
+## *12/12/2019*
+
+***Ramona***
+[simple bookstore website idea](https://pragprog.com/) 
