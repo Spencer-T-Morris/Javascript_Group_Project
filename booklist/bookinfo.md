@@ -25,8 +25,19 @@ Author: Robert C. Martin
 
 **Advanced**
 
-[Eloquent JavaScript]
-[Free PDF = Eloquent Javascript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf) 
+[Eloquent JavaScript](https://www.oreilly.com/library/view/eloquent-javascript-3rd/9781492071198/)
+***Description***
+JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
+
+This much anticipated and thoroughly revised third edition of Eloquent JavaScript dives deep into the JavaScript language to show you how to write beautiful, effective code. It has been updated to reflect the current state of Java¬Script and web browsers and includes brand-new material on features like class notation, arrow functions, iterators, async functions, template strings, and block scope. A host of new exercises have also been added to test your skills and keep you on track.
+author:Marijn Haverbeke
+Publisher: No Starch Press
+Release Date: December 2018
+ISBN: 9781492071198
+price:
+format:
+[Free PDF = Eloquent Javascript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
+
 [ProGit]
 
 
@@ -83,6 +94,7 @@ Format
 
 
 [The Effective Engineer -Edmond Lau]
+
 [Code Complete]
 
 
