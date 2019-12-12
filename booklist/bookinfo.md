@@ -109,7 +109,7 @@ Release Date: May 2011
 ISBN: 9780132542913
     Price:
     Format:
-    
+
     website:https://cleancoders.com/videos?gclid=CjwKCAiA58fvBRAzEiwAQW-hzWJd8T-7H0zHBfu7qXNStW0sbtViIppeaQYNiCFOx363hLx6JLhN_RoC5sUQAvD_BwE
 
 [Peopleware: Productive Projects and Teams](http://amzn.to/2sxPBDs)  
@@ -144,4 +144,14 @@ Format:
 **Fiction**
 
 [The Phoenix Project]
-[The Unicorn Project]
+[The Unicorn Project](https://itrevolution.com/the-unicorn-project/)
+***Description***
+In The Unicorn Project, we follow Maxine, a senior lead developer and architect, as she is exiled to the Phoenix Project, to the horror of her friends and colleagues, as punishment for contributing to a payroll outage. She tries to survive in what feels like a heartless and uncaring bureaucracy and to work within a system where no one can get anything done without endless committees, paperwork, and approvals.
+
+The Age of Software is here, and another mass extinction event looms—this is a story about rebel developers and business leaders working together, racing against time to innovate, survive, and thrive in a time of unprecedented uncertainty…and opportunity.
+ Author: Gene Kim
+Publisher: Prentice Hall
+Release Date: September 2004
+ISBN: 0131177052
+Price:
+Format:
