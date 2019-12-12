@@ -7,8 +7,7 @@
 
 [Coding for Dummies]
 
-[Head First Design Patterns: A Brain-Friendly Guide](http://amzn.to/2Hd6x57)
-  
+[Head First Design Patterns: A Brain-Friendly Guide](http://amzn.to/2Hd6x57)  
 ***Description:***
      At any given moment, someone struggles with the same software design problems you have. And, chances are, someone else has already solved your problem. This edition of Head First Design Patterns—now updated for Java 8—shows you the tried-and-true, road-tested patterns used by developers to create functional, elegant, reusable, and flexible software. By the time you finish this book, you’ll be able to take advantage of the best design practices and experiences of those who have fought the beast of software design and triumphed.
 Author: Robert C. Martin
@@ -33,12 +32,33 @@ Author: Robert C. Martin
 
 **Career**
 
+[The Complete Software Developer's Career Guide: How to Learn Programming Languages Quickly, Ace Your Programming Interview, and Land Your Software Developer Dream Job](https://www.amazon.com/Complete-Software-Developers-Career-Guide/dp/0999081411)
+***Description:***
+Technical Knowledge Alone Isn't Enough - Increase Your Income by Leveling Up Your Soft Skills
+Early in his software developer career, John Sonmez discovered that technical knowledge alone isn't enough to break through to the next income level - developers need "soft skills" like the ability to learn new technologies just in time, communicate clearly with management and consulting clients, negotiate a fair hourly rate, and unite teammates and coworkers in working toward a common goal.
 
-
-
+As John invested in these skills his career took off, and he became a highly paid, highly sought-after developer and consultant.
+Author: John Sonmez
+    Publisher: Simple Programmer, LLC 
+    Release Date: July 13, 2017
+    ISBN-10: 0999081411
+    Price:
+    Format:
+    website:https://simpleprogrammer.com/confirm/sp-welcome-c/?__s=3sppknrgqbbssactqsuz
 
 
 **Professional Development** 
+[Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+***Description***
+Clean code that works--now. This is the seeming contradiction that lies behind much of the pain of programming. Test-driven development replies to this contradiction with a paradox--test the program before you write it.
+
+A new idea? Not at all. Since the dawn of computing, programmers have been specifying the inputs and outputs before programming precisely. Test-driven development takes this age-old idea, mixes it with modern languages and programming environments, and cooks up a tasty stew guaranteed to satisfy your appetite for clean code that works--now.
+Author:  Kent Beck
+Publisher: Addison-Wesley Professional
+Release Date: November 2002
+ISBN: 0321146530
+Price:
+Format:
 
 [The Pragmatic Programmer: From Journeyman to Master by Andrew Hunt and David Thomas](http://amzn.to/2EHdOfk)  
 ***Description:***
