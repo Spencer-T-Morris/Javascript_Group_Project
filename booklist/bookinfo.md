@@ -48,7 +48,7 @@ format:
 ***Description***
 Succeed as a project manager, even if you’ve never run a project before! This book is the fastest way to master every project management task, from upfront budgeting and scheduling through execution, managing teams through closing projects, and learning from experience. Updated with more insights from the front lines, including agile approaches, dealing with security and privacy priorities, and leading remote/virtual teams, along with the latest on Microsoft Project and PMI standards and certifications and a special bonus chapter on preparing for the PMP certification. This book will show you exactly how to get the job done, one incredibly clear and easy step at a time. Project management has never, ever been this simple!
 
-6. 
+
 **Intermediate**
 
 1. [You Don't Know Js (6 book series)](https://www.oreilly.com/playlists/70e6d999-1cef-49f7-84c0-fd6cf59b167c/)
@@ -69,7 +69,13 @@ format:
 No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skillset
 
 
-[Javascript the good parts]
+2. [Javascript the good parts](http://shop.oreilly.com/product/9780596517748.do)
+author: Douglas Crockford
+Publisher: Yahoo Press
+Release Date: December 2008
+ISBN-13: 978-0596517748
+price:
+format:
 
 **Advanced**
 
@@ -86,12 +92,13 @@ price:
 format:
 [Free PDF = Eloquent Javascript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 
-[ProGit]
+[ProGit]()
 
+[Free PDF = Pro Git](https://git-scm.com/book/en/v2)
 
 **Career**
 
-[The Complete Software Developer's Career Guide: How to Learn Programming Languages Quickly, Ace Your Programming Interview, and Land Your Software Developer Dream Job](https://www.amazon.com/Complete-Software-Developers-Career-Guide/dp/0999081411)
+1. [The Complete Software Developer's Career Guide: How to Learn Programming Languages Quickly, Ace Your Programming Interview, and Land Your Software Developer Dream Job](https://www.amazon.com/Complete-Software-Developers-Career-Guide/dp/0999081411)
 ***Description:***
 Technical Knowledge Alone Isn't Enough - Increase Your Income by Leveling Up Your Soft Skills
 Early in his software developer career, John Sonmez discovered that technical knowledge alone isn't enough to break through to the next income level - developers need "soft skills" like the ability to learn new technologies just in time, communicate clearly with management and consulting clients, negotiate a fair hourly rate, and unite teammates and coworkers in working toward a common goal.
@@ -104,7 +111,23 @@ Author: John Sonmez
     Format:
     website:https://simpleprogrammer.com/confirm/sp-welcome-c/?__s=3sppknrgqbbssactqsuz
 
+2. [Women in Tech](https://www.amazon.com/Women-Tech-Practical-Inspiring-Stories/dp/1632171406/ref=sr_1_fkmr1_1?keywords=women+in+tech+sarah+wheeler&qid=1576274980&s=books&sr=1-1-fkmr1)
+   ***Description***
+   Written by a female startup CEO and featuring a host of other successful contributors, this book will help dismantle the unconscious social bias against women in the tech industry. Readers will learn:
 
+    The secrets of salary negotiation
+    The best format for tech resumes
+     How to ace a tech interview
+      The perks of both contracting (W-9) and salaried full-time work
+       The secrets of mentorship
+      How to start your own company
+Author: Tarah Wheeler
+    Publisher: Sasquatch Books; Reprint edition 
+    Release Date: August 22, 2017
+  ISBN-10: 1632171406
+    Price:
+    Format:
+    
 **Professional Development** 
 1. [Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
 ***Description***
@@ -141,7 +164,7 @@ Format
 4. [The Clean Coder: A Code of Conduct for Professional Programmers by Robert C. Martin](http://amzn.to/2EqFxlb)
 ***Description***
 	Compared to Law, Medicine, Engineering, Accounting, Programming is a relatevely easy field to enter. There're countless success stories of self-thought programmers. This book introduces to what a Professional Programmer is. The author shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act.
-Author: 
+    Author: 
     Publisher: 
     Release Date: 
     ISBN: 
