@@ -1,11 +1,11 @@
 class Book {
+
     constructor(title, author, category, ISBN, format, price) {
         this.title = title;
         this.author = author;
         this.category = category;
         this.isbn = ISBN;
         this.format = format;
-        this.price = price;
     }
 }
 //1
@@ -71,7 +71,7 @@ let allBooks = [headStart, coding4Dummies, uDKJS, eloquent, proGit, pProg, busVa
 
 
 
-let search = "professional development";
+let search = prompt("Please enter your search?" );
 
 if (search == "beginner") {
     let arrayB = [];
@@ -85,9 +85,9 @@ if (search == "beginner") {
         }
     }
     if (arrayB.length != 0) {
-    console.log("The books that meet your seach criteria of " + search.toUpperCase() + " are: \n\n" + arrayB);
+    console.log(`The books that meet your seach criteria of ${search.toUpperCase()} are: \n\n ${arrayB}`);
     } else {
-    console.log ("\n no results meet search criteria.");
+    console.log (`\n no results meet search criteria.`);
     }
 }
 
@@ -103,10 +103,10 @@ if (search == "intermediate") {
         }
     }
     if (arrayI.length != 0) {
-    console.log("The books that meet your seach criteria of " + search.toUpperCase() + " are: \n\n" + arrayI);
-    } else {
-    console.log ("\n no results meet search criteria.");
-    }
+        console.log(`The books that meet your seach criteria of ${search.toUpperCase()} are: \n\n ${arrayI}`);
+        } else {
+        console.log (`\n no results meet search criteria.`);
+        }
 }
 
 if (search == "advanced") {
@@ -121,10 +121,10 @@ if (search == "advanced") {
         }
     }
     if (arrayA.length != 0) {
-    console.log("The books that meet your seach criteria of " + search.toUpperCase() + " are: \n\n" + arrayA);
-    } else {
-    console.log ("\n no results meet search criteria.");
-    }
+        console.log(`The books that meet your seach criteria of ${search.toUpperCase()} are: \n\n ${arrayA}`);
+        } else {
+        console.log (`\n no results meet search criteria.`);
+        }
 }
 
 if (search == "professional development") {
@@ -139,8 +139,41 @@ if (search == "professional development") {
         }
     }
     if (arrayP.length != 0) {
-    console.log("The books that meet your seach criteria of " + search.toUpperCase() + " are: \n\n" + arrayP);
-    } else {
-    console.log ("\n no results meet search criteria.");
+        console.log(`The books that meet your seach criteria of ${search.toUpperCase()} are: \n\n ${arrayp}`);
+        } else {
+        console.log (`\n no results meet search criteria.`);
+        }
+}
+if (search == "career") {
+    let arrayC = [];
+    let i = 0;
+    while (i < allBooks.length) {
+        if (allBooks[i].category == "Career") {
+            arrayC == arrayC.push(" " + allBooks[i].title);
+            i++;
+        } else {
+            i++;
+        }
     }
+    if (arrayC.length != 0) {
+        console.log(`The books that meet your seach criteria of ${search.toUpperCase()} are: \n\n ${arrayC}`);
+        } else {
+        console.log (`\n no results meet search criteria.`);
+        }
+}if (search == "Fiction") {
+    let arrayF = [];
+    let i = 0;
+    while (i < allBooks.length) {
+        if (allBooks[i].category == "Fiction") {
+            arrayF == arrayF.push(" " + allBooks[i].title);
+            i++;
+        } else {
+            i++;
+        }
+    }
+    if (arrayF.length != 0) {
+        console.log(`The books that meet your seach criteria of ${search.toUpperCase()} are: \n\n ${arrayF}`);
+        } else {
+        console.log (`\n no results meet search criteria.`);
+        }
 }
