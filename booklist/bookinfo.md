@@ -127,7 +127,24 @@ Author: Tarah Wheeler
   ISBN-10: 1632171406
     Price:
     Format:
-    
+
+3. [Cracking the Coding Interview: 150 Programming Questions and Solutions 5th Edition](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280) 
+***Description***
+The full list of topics are as follows:
+
+The Interview Process
+Behind the Scenes
+Special Situations
+Before the Interview
+Behavioral Preparation
+Technical Questions (+ 5 Algorithm Approaches)
+Author:Gayle Laakmann McDowell
+Publisher: CareerCup; 5th Revised & enlarged edition 
+Release Date: August 22, 2011
+ISBN-10: 098478280X
+price:
+format:
+
 **Professional Development** 
 1. [Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
 ***Description***
