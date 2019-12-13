@@ -3,20 +3,50 @@
 
 **Beginner**
 
-[HeadStart]
+1. [Coding for Dummies](https://www.oreilly.com/library/view/coding-for-dummies/9781118951309/)
+***Description***
+No coding experience is required for Coding For Dummies, your one-stop guide to building a foundation of knowledge in writing computer code for web, application, and software development. It doesn't matter if you've dabbled in coding or never written a line of code, this book guides you through the basics. Using foundational web development languages like HTML, CSS, and JavaScript, it explains in plain English how coding works and why it's needed.
 
-[Coding for Dummies]
+Online exercises developed by Codecademy, a leading online code training site, help hone coding skills and demonstrate results as you practice.
 
-[Head First Design Patterns: A Brain-Friendly Guide](http://amzn.to/2Hd6x57)  
+author:Nikhil Abraham
+Publisher: For Dummies
+Release Date: February 2015
+ISBN: 9781118951309
+
+2. [Head First Design Patterns: A Brain-Friendly Guide](http://amzn.to/2Hd6x57)  
 ***Description:***
      At any given moment, someone struggles with the same software design problems you have. And, chances are, someone else has already solved your problem. This edition of Head First Design Patterns—now updated for Java 8—shows you the tried-and-true, road-tested patterns used by developers to create functional, elegant, reusable, and flexible software. By the time you finish this book, you’ll be able to take advantage of the best design practices and experiences of those who have fought the beast of software design and triumphed.
-Author: Robert C. Martin
-   Publisher: O'Reilly Media; 1st edition 
+     Author: Robert C. Martin
+    Publisher: O'Reilly Media; 1st edition 
     Release Date: October 2004
-   ISBN-10: 9780596007126
+    ISBN-10: 9780596007126
     Price:
     Format:
 
+3. [Head First Learn to Code](https://www.oreilly.com/library/view/head-first-learn/9781491958858/)
+***Description***
+It’s no secret the world around you is becoming more connected, more configurable, more programmable, more computational. You can remain a passive participant, or you can learn to code. With Head First Learn to Code you’ll learn how to think computationally and how to write code to make your computer, mobile device, or anything with a CPU do things for you. Using the Python programming language, you’ll learn step by step the core concepts of programming as well as many fundamental topics from computer science, such as data structures, storage, abstraction, recursion, and modularity.
+author:  Eric Freeman
+Publisher: O'Reilly Media, Inc.
+Release Date: January 2018
+ISBN: 9781491958858
+price:
+format:
+
+4. [Essential TypeScript: From Beginner to Pro](https://www.oreilly.com/library/view/essential-typescript-from/9781484249796/)
+ ***Description***
+Work with Typescript and get the most from this versatile open source language. Author Adam Freeman begins this book by describing Typescript and the benefits it offers, and goes on to show you how to use TypeScript in realistic scenarios, going in-depth to give you the knowledge you need. 
+author: Adam Freeman
+Publisher: Apress
+Release Date: August 2019
+ISBN: 9781484249796
+price:
+format:
+
+5. [Project Management Absolute Beginner’s Guide, Fourth Edition](https://www.oreilly.com/library/view/project-management-absolute/9780134653914/)
+***Description***
+Succeed as a project manager, even if you’ve never run a project before! This book is the fastest way to master every project management task, from upfront budgeting and scheduling through execution, managing teams through closing projects, and learning from experience. Updated with more insights from the front lines, including agile approaches, dealing with security and privacy priorities, and leading remote/virtual teams, along with the latest on Microsoft Project and PMI standards and certifications and a special bonus chapter on preparing for the PMP certification. This book will show you exactly how to get the job done, one incredibly clear and easy step at a time. Project management has never, ever been this simple!
 **Intermediate**
 
 [You don't know JS]
@@ -58,7 +88,7 @@ Author: John Sonmez
 
 
 **Professional Development** 
-[Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+1. [Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
 ***Description***
 Clean code that works--now. This is the seeming contradiction that lies behind much of the pain of programming. Test-driven development replies to this contradiction with a paradox--test the program before you write it.
 A new idea? Not at all. Since the dawn of computing, programmers have been specifying the inputs and outputs before programming precisely. Test-driven development takes this age-old idea, mixes it with modern languages and programming environments, and cooks up a tasty stew guaranteed to satisfy your appetite for clean code that works--now.
@@ -69,7 +99,7 @@ ISBN: 0321146530
 Price:
 Format:
 
-[The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/)  
+2. [The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/)  
 ***Description:***
 This book is a great read to fill the gaps that have been missed by all other books on this list. The authors will show you what it takes to master our trade, and hopefully they will equipe you with skill and idea to avoid the common pitfalls.
 Author: Andrew Hunt, David Thomas
@@ -80,7 +110,7 @@ Price:
 format:
 
 
-[The Business Value of Developer Relations](https://www.apress.com/gp/book/9781484237472)
+3. [The Business Value of Developer Relations](https://www.apress.com/gp/book/9781484237472)
 ***Description***
 Discover the true value of Developer Relations as you learn to build and maintain positive relationships with your developer community. Use the principles laid out in this book to walk through your company goals and discover how you can formulate a plan tailored to your specific needs.
 Author:   Mary Thengvall
@@ -90,7 +120,7 @@ ISBN 978-1-4842-3748-9
 Price:
 Format
 
-[The Clean Coder: A Code of Conduct for Professional Programmers by Robert C. Martin](http://amzn.to/2EqFxlb)
+4. [The Clean Coder: A Code of Conduct for Professional Programmers by Robert C. Martin](http://amzn.to/2EqFxlb)
 ***Description***
 	Compared to Law, Medicine, Engineering, Accounting, Programming is a relatevely easy field to enter. There're countless success stories of self-thought programmers. This book introduces to what a Professional Programmer is. The author shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act.
 Author: 
@@ -100,7 +130,7 @@ Author:
     Price:
     Format:
 
-[Clean Code: A Handbook of Agile Software Craftsmanship ](https://www.oreilly.com/library/view/clean-code/9780136083238/) 
+5. [Clean Code: A Handbook of Agile Software Craftsmanship ](https://www.oreilly.com/library/view/clean-code/9780136083238/) 
 ***Description:***
  Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. " Another book by Uncle Bob, it is an opinionated book, but full of wonderful resources and advice on how to improve your code.
 Author: Robert C. Martin
@@ -112,13 +142,13 @@ ISBN: 9780132542913
 
     website:https://cleancoders.com/videos?gclid=CjwKCAiA58fvBRAzEiwAQW-hzWJd8T-7H0zHBfu7qXNStW0sbtViIppeaQYNiCFOx363hLx6JLhN_RoC5sUQAvD_BwE
 
-[Peopleware: Productive Projects and Teams](http://amzn.to/2sxPBDs)  
+6. [Peopleware: Productive Projects and Teams](http://amzn.to/2sxPBDs)  
  	IT management is your ultimate goal? Read this book! Written in the 80s,it outlines the major issues with current management practices in software development field. It's amazing that most companies still make the same mistakes. If you won't move into management, at least this book will help you ask the right questions and look for red flags next time you're looking for a new job. Personally, I cannot chuckle inside when I hear "Open space office"
 ISDN:
 Price:
 Format:
 
-[Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)  
+ 7. [Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)  
  by **Michael C. Feathers and Growing Object-Oriented Software**, Guided by Tests by Steve Freeman and Nat Pryce: 
  ***Description:*** 
  After I've finished Starting to Unit Test I want to reread these two classics on unit testing. I know I've internalized many lessons I took away from them when I first read them, but it's definitely time to see what more I can get from them.
@@ -130,7 +160,7 @@ Price:
 Format:
 [Free PDF Working Effectively with Legacy Code](http://ptgmedia.pearsoncmg.com/images/9780131177055/samplepages/0131177052.pdf)
 
-[Agile Software Development: The Cooperative Game, Second Edition](https://www.oreilly.com/library/view/agile-software-development/0321482751/)
+8. [Agile Software Development: The Cooperative Game, Second Edition](https://www.oreilly.com/library/view/agile-software-development/0321482751/)
  **Starting to Unit Test** by Erik Dietrich: 
  ***Description:***
   Unit testing is pretty second nature to me, so I'm going to look back to the fundamentals this year to see what I've missed along the way. I'm sure there are gaps to fill.
@@ -143,7 +173,7 @@ Format:
 
 **Fiction**
 
-[The Phoenix Project](https://www.amazon.com/gp/product/0988262592/ref=x_gr_w_bb_glide_sin?ie=UTF8&tag=x_gr_w_bb_glide_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0988262592&SubscriptionId=1MGPYB6YW3HWK55XCGG2)
+1. [The Phoenix Project](https://www.amazon.com/gp/product/0988262592/ref=x_gr_w_bb_glide_sin?ie=UTF8&tag=x_gr_w_bb_glide_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0988262592&SubscriptionId=1MGPYB6YW3HWK55XCGG2)
 ***Description***
 Maxine wrangles with an ever-growing to-do list, every lead turning into a dead end:
 “Trying to get a Phoenix build going is like playing Legend of Zelda, if it were written by a sadist, forcing her to adventure far and wide to find hidden keys scattered across the kingdom and given only measly clues from uncaring NPCs.”
@@ -155,7 +185,7 @@ Price:
 Format:
  
 
-[The Unicorn Project](https://itrevolution.com/the-unicorn-project/)
+2. [The Unicorn Project](https://itrevolution.com/the-unicorn-project/)
 ***Description***
 In The Unicorn Project, we follow Maxine, a senior lead developer and architect, as she is exiled to the Phoenix Project, to the horror of her friends and colleagues, as punishment for contributing to a payroll outage. She tries to survive in what feels like a heartless and uncaring bureaucracy and to work within a system where no one can get anything done without endless committees, paperwork, and approvals.
 
@@ -167,11 +197,8 @@ ISBN-10: 1942788762
 Price:
 Format:
 
+3. [coders](https://www.penguinrandomhouse.com/books/539883/coders-by-clive-thompson/)
 
-[Once Upon an Algorithm: How Stories Explain
-Computing]()
-
-[coders](https://www.penguinrandomhouse.com/books/539883/coders-by-clive-thompson/)
 ***description***
 ABOUT CODERS
 Hello, world.
@@ -184,3 +211,6 @@ Release Date: Mar 24, 2020
 ISBN 9780735220560
 Price:
 Format:
+
+1. [Once Upon an Algorithm: How Stories Explain
+Computing]()
