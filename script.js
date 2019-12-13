@@ -6,30 +6,31 @@ class Book {
         this.category = category;
         this.isbn = ISBN;
         this.format = format;
+        this.price = price;
     }
 }
 //1
-let headStart = new Book ("HeadStart", "unkAuthor1 ", "beginner", "ISBN1 ", "format1",100);
+let headStart = new Book ("HeadStart", "unkAuthor1 ", "beginner", "ISBN1 ", "format1", 100);
 //2
 let coding4Dummies = new Book ("Coding For Dummies", "unkAuthor2 ", "beginner", "ISBN2 ", "format2", 100);
 //3
 let headFirst = new Book ("Head First Design Patterns: A Brain-Friendly Guide", "Robert C. Martin", "beginner", 
-                            978059600712, "format3", 100);
+                            "978059600712", "format3", 100);
 //4
 let uDKJS = new Book ("You Don't Know JS", "unkAuthor4", "intermediate", "ISBN4", "format4", 100);
 //5
 let goodParts = new Book ("JavaScript the Good Parts", "unkAuthor5", "intermediate", "ISBN5", "format5", 100);
 //6
-let eloquent = new Book ("Eloquent JavaScript", "Marijn Haverbeke", "advanced", 9781492071198, "format6", 100);
+let eloquent = new Book ("Eloquent JavaScript", "Marijn Haverbeke", "advanced", "9781492071198", "format6", 100);
 //7
 let proGit = new Book ("ProGit", "unkAuthor5", "advanced", "ISBN7", "format7", 100);
 //8
 let complete = new Book ("The Complete Software Developer's Career Guide: How to Learn Programming Languages Quickly," + 
                             " Ace Your Programming Interview, and Land Your Software Developer Dream Job", 
-                            "John Sonmez", "career", 0999081411, "format8", 100);
+                            "John Sonmez", "career", "0999081411", "format8", 100);
 //9
 let testDriven = new Book ("Test Driven Development: By Example", "Kent Beck", "professional development", 
-                            "format9", 0321146530, 100);
+                            "format9", "0321146530", 100);
 //10
 let pProg = new Book ("The Pragmatic Programmer", "Andrew Hunt, David Thomas", "professional development", 
                         "9780135956977", "format10", 100);
@@ -41,23 +42,23 @@ let cleanCoder = new Book ("The Clean Coder", "Robert C. Martin", "professional 
                             "format12", 100);
 //13
 let agileCode = new Book ("Clean Code: A Handbook of Agile Software Craftsmanship", "Robert C. Martin", 
-                            "professional development", 9780132542913, "format13", 100);
+                            "professional development", "9780132542913", "format13", 100);
 //14
 let peopleWare = new Book ("Peopleware: Productive Projects and Teams", "unkAuthor14","professional development", 
                             "ISBN14", "format14", 100);
 //15
 let workEff = new Book ("Working Effectively with Legacy Code", "Michael C. Feathers", "professional development", 
-                            0131177052, "format15", 100);
+                            "0131177052", "format15", 100);
 //16
 let coopGame = new Book ("Agile Software Development: The Cooperative Game, Second Edition", "unkAuthor16", 
                         "professional development", "ISBN16", "format16", 100);
 //17
-let unitTest = new Book ("Starting to Unit Test", "Erik Dietrich ", "professional development", 0321482751, 
+let unitTest = new Book ("Starting to Unit Test", "Erik Dietrich ", "professional development", "0321482751", 
                         "format17", 100);
 //18
-let phoenix = new Book ("The Phoenix Project", "Gene Kim", "fiction", 0988262592, "format18", 100);
+let phoenix = new Book ("The Phoenix Project", "Gene Kim", "fiction", "0988262592", "format18", 100);
 //19
-let unicorn = new Book ("The Unicorn Project", "Gene Kim", "fiction", 1942788762, "format19", 100);
+let unicorn = new Book ("The Unicorn Project", "Gene Kim", "fiction", "1942788762", "format19", 100);
 //20
 let onceUpon = new Book ("Once Upon an Algorithm: How Stories Explain Computing", "unkAuthor20", "fiction", 
                         "ISBN20", "format20", 100);
@@ -71,7 +72,7 @@ let allBooks = [headStart, coding4Dummies, uDKJS, eloquent, proGit, pProg, busVa
 
 
 
-let search = prompt("Please enter your search?" );
+let search = prompt("");
 
 if (search == "beginner") {
     let arrayB = [];
