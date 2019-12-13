@@ -1,9 +1,9 @@
 class Book {
-    constructor(title, author, category, pages, price) {
+    constructor(title, author, category, isbn, price) {
         this.title = title;
         this.author = author;
         this.category = category;
-        this.isbn = ISBN;
+        this.isbn = isbn;
         this.price = price;
     }
 }
@@ -21,7 +21,7 @@ let allBooks = [headStart, coding4Dummies, uDKJS, eloquent, proGit, pProg, busVa
 
 
 
-let search = "professional development";
+let search = prompt("Please enter your search?" );
 
 if (search == "beginner") {
     let arrayB = [];
@@ -94,3 +94,4 @@ if (search == "professional development") {
     console.log ("\n no results meet search criteria.");
     }
 }
+
