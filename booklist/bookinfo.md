@@ -47,9 +47,27 @@ format:
 5. [Project Management Absolute Beginner’s Guide, Fourth Edition](https://www.oreilly.com/library/view/project-management-absolute/9780134653914/)
 ***Description***
 Succeed as a project manager, even if you’ve never run a project before! This book is the fastest way to master every project management task, from upfront budgeting and scheduling through execution, managing teams through closing projects, and learning from experience. Updated with more insights from the front lines, including agile approaches, dealing with security and privacy priorities, and leading remote/virtual teams, along with the latest on Microsoft Project and PMI standards and certifications and a special bonus chapter on preparing for the PMP certification. This book will show you exactly how to get the job done, one incredibly clear and easy step at a time. Project management has never, ever been this simple!
+
+6. 
 **Intermediate**
 
-[You don't know JS]
+1. [You Don't Know Js (6 book series)](https://www.oreilly.com/playlists/70e6d999-1cef-49f7-84c0-fd6cf59b167c/)
+author:Kyle Simpson
+Publisher: O'Reilly Media, Inc.
+Release Date: March 2015
+ISBN: 9781491924471
+price:
+format:
+
+***Description***
+1. You Don't Know JS: this & Object Prototypes
+2. You Don't Know JS: ES6 & Beyond
+3. You Don't Know JS: Up & Going
+4. You Don't Know JS: Async & Performance
+5. You Don't Know JS: Scope & Closures
+6. You Don't Know JS: Types & Grammar
+No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skillset
+
 
 [Javascript the good parts]
 
