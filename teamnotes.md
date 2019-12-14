@@ -13,6 +13,10 @@ Looking at using bookstore API - need to ask if we can use API's since it has no
 
 checkout the slider on the books on this project 
 https://codepen.io/rjoyce/pen/LyXaVb
+
+like the add to cart and more feature on this one 
+https://codepen.io/keroloszakaria/pen/WYGbgb
+
 ****Ryan**
 
 
