@@ -9,10 +9,15 @@ Show the team [Waka](https://wakatime.com/)
 Looking at using bookstore API - need to ask if we can use API's since it has not been covered in class yet    
 [What Are APIs and How Do They Work?](https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work)  
 
+## *12/13/2019*
 
-**Ryan**
-Hey guys - another attempt
+checkout the slider on the books on this project 
+https://codepen.io/rjoyce/pen/LyXaVb
+****Ryan**
 
-**spencer**
-push testing
+
+****spencer**
+
+
+
 
