@@ -292,9 +292,8 @@ Price:
 Format:
 
 5. [Pattern Recognition](https://www.goodreads.com/book/show/22320.Pattern_Recognition)
-***Description***
+***Description*** pic
 Cayce Pollard is an expensive, spookily intuitive market-research consultant. In London on a job, she is offered a secret assignment: to investigate some intriguing snippets of video that have been appearing on the Internet. An entire subculture of people is obsessed with these bits of footage, and anybody who can create that kind of brand loyalty would be a gold mine for Cayce's client. But when her borrowed apartment is burgled and her computer hacked, she realizes there's more to this project than she had expected.
-
 
 Author: CLIVE THOMPSON
 Publisher:  Penguin Books

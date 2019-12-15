@@ -17,6 +17,11 @@ https://codepen.io/rjoyce/pen/LyXaVb
 like the add to cart and more feature on this one 
 https://codepen.io/keroloszakaria/pen/WYGbgb
 
+## *12/14/2019*
+
+do we need a disclaimer on condition 
+Say that all books are brand new or all books are used etc ?
+
 **Ryan**
 
 
