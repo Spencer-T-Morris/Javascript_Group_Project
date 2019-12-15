@@ -21,7 +21,9 @@ https://codepen.io/keroloszakaria/pen/WYGbgb
 
 do we need a disclaimer on condition 
 Say that all books are brand new or all books are used etc ?
+removed PROGit from the booklist 
 
+[Free PDF = Pro Git](https://git-scm.com/book/en/v2)
 **Ryan**
 
 
