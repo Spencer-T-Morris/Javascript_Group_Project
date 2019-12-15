@@ -4,7 +4,7 @@
 **Beginner**
 
 1. [Coding for Dummies](https://www.oreilly.com/library/view/coding-for-dummies/9781118951309/)
-***Description***
+***Description*** pic
 No coding experience is required for Coding For Dummies, your one-stop guide to building a foundation of knowledge in writing computer code for web, application, and software development. It doesn't matter if you've dabbled in coding or never written a line of code, this book guides you through the basics. Using foundational web development languages like HTML, CSS, and JavaScript, it explains in plain English how coding works and why it's needed.
 
 Online exercises developed by Codecademy, a leading online code training site, help hone coding skills and demonstrate results as you practice.
@@ -15,7 +15,7 @@ Release Date: February 2015
 ISBN: 9781118951309
 
 2. [Head First Design Patterns: A Brain-Friendly Guide](https://www.oreilly.com/library/view/head-first-design/0596007124/)  
-***Description:***
+***Description:*** pic
      At any given moment, someone struggles with the same software design problems you have. And, chances are, someone else has already solved your problem. This edition of Head First Design Patterns—now updated for Java 8—shows you the tried-and-true, road-tested patterns used by developers to create functional, elegant, reusable, and flexible software. By the time you finish this book, you’ll be able to take advantage of the best design practices and experiences of those who have fought the beast of software design and triumphed.
      Author: Robert C. Martin
     Publisher: O'Reilly Media; 1st edition 
@@ -25,7 +25,7 @@ ISBN: 9781118951309
     Format:
 
 3. [Head First Learn to Code](https://www.oreilly.com/library/view/head-first-learn/9781491958858/)
-***Description***
+***Description*** pic 
 It’s no secret the world around you is becoming more connected, more configurable, more programmable, more computational. You can remain a passive participant, or you can learn to code. With Head First Learn to Code you’ll learn how to think computationally and how to write code to make your computer, mobile device, or anything with a CPU do things for you. Using the Python programming language, you’ll learn step by step the core concepts of programming as well as many fundamental topics from computer science, such as data structures, storage, abstraction, recursion, and modularity.
 author:  Eric Freeman
 Publisher: O'Reilly Media, Inc.
@@ -35,7 +35,7 @@ price:
 format:
 
 4. [Essential TypeScript: From Beginner to Pro](https://www.oreilly.com/library/view/essential-typescript-from/9781484249796/)
- ***Description***
+ ***Description*** pic 
 Work with Typescript and get the most from this versatile open source language. Author Adam Freeman begins this book by describing Typescript and the benefits it offers, and goes on to show you how to use TypeScript in realistic scenarios, going in-depth to give you the knowledge you need. 
 author: Adam Freeman
 Publisher: Apress
@@ -44,7 +44,7 @@ ISBN: 9781484249796
 price:
 format:
 
-5. [Project Management Absolute Beginner’s Guide, Fourth Edition](https://www.oreilly.com/library/view/project-management-absolute/9780134653914/)
+5. [Project Management Absolute Beginner’s Guide, Fourth Edition](https://www.oreilly.com/library/view/project-management-absolute/9780134653914/) pic
 ***Description***
 Succeed as a project manager, even if you’ve never run a project before! This book is the fastest way to master every project management task, from upfront budgeting and scheduling through execution, managing teams through closing projects, and learning from experience. Updated with more insights from the front lines, including agile approaches, dealing with security and privacy priorities, and leading remote/virtual teams, along with the latest on Microsoft Project and PMI standards and certifications and a special bonus chapter on preparing for the PMP certification. This book will show you exactly how to get the job done, one incredibly clear and easy step at a time. Project management has never, ever been this simple!
 
@@ -59,7 +59,7 @@ ISBN: 9781491924471
 price:
 format:
 
-***Description***
+***Description*** pic
 1. You Don't Know JS: this & Object Prototypes
 2. You Don't Know JS: ES6 & Beyond
 3. You Don't Know JS: Up & Going
@@ -70,6 +70,8 @@ No matter how much experience you have with JavaScript, odds are you don’t ful
 
 
 2. [Javascript the good parts](http://shop.oreilly.com/product/9780596517748.do)
+***Description***  pic 
+Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code.
 author: Douglas Crockford
 Publisher: Yahoo Press
 Release Date: December 2008
