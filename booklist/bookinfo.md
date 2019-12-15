@@ -169,7 +169,17 @@ Format:
 
 
 [Once Upon an Algorithm: How Stories Explain
-Computing]()
+Computing](https://www.barnesandnoble.com/w/once-upon-an-algorithm-martin-erwig/1125986359)
+***description***
+How Hansel and Gretel, Sherlock Holmes, the movie Groundhog Day , Harry Potter, and other familiar stories illustrate the concepts of computing.
+
+Picture a computer scientist, staring at a screen and clicking away frantically on a keyboard, hacking into a system, or perhaps developing an app. Now delete that picture. In Once Upon an Algorithm , Martin Erwig explains computation as something that takes place beyond electronic computers, and computer science as the study of systematic problem solving.
+ Author: Gene Kim
+Publisher: IT Revolution Press
+Release Date: August 11, 2017
+ISBN: 9780262036634
+Price:
+Format:
 
 [coders](https://www.penguinrandomhouse.com/books/539883/coders-by-clive-thompson/)
 ***description***
