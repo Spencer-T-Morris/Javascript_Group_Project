@@ -230,15 +230,7 @@ ISBN: 0321482751
 Price:
 Format:
 
- **Starting to Unit Test** by Erik Dietrich: 
- ***Description:***
-  Unit testing is pretty second nature to me, so I'm going to look back to the fundamentals this year to see what I've missed along the way. I'm sure there are gaps to fill.
-Author:Alistair Cockburn
-Publisher: Addison-Wesley Professional
-Release Date: October 2006
-ISBN: 0321482751
-Price:
-Format:
+
 
 **Fiction**
 
