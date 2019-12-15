@@ -146,6 +146,7 @@ price:
 format:
 
 **Professional Development** 
+
 1. [Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
 ***Description***
 Clean code that works--now. This is the seeming contradiction that lies behind much of the pain of programming. Test-driven development replies to this contradiction with a paradox--test the program before you write it.
@@ -219,6 +220,16 @@ Format:
 [Free PDF Working Effectively with Legacy Code](http://ptgmedia.pearsoncmg.com/images/9780131177055/samplepages/0131177052.pdf)
 
 8. [Agile Software Development: The Cooperative Game, Second Edition](https://www.oreilly.com/library/view/agile-software-development/0321482751/)
+***description***
+The agile model of software development has taken the world by storm. Now, in Agile Software Development, Second Edition, one of agile’s leading pioneers updates his Jolt Productivity award-winning book to reflect all that’s been learned about agile development since its original introduction.
+Next, he systematically illuminates the agile model, shows how it has evolved, and answers the questions developers and project managers ask most often, including
+Author:Alistair Cockburn
+Publisher: Addison-Wesley Professional
+Release Date: October 2006
+ISBN: 0321482751
+Price:
+Format:
+
  **Starting to Unit Test** by Erik Dietrich: 
  ***Description:***
   Unit testing is pretty second nature to me, so I'm going to look back to the fundamentals this year to see what I've missed along the way. I'm sure there are gaps to fill.
