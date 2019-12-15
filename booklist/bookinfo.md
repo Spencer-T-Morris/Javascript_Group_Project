@@ -3,7 +3,7 @@
 
 **Beginner**
 
-[HeadStart]
+
 
 [Coding for Dummies]
 
