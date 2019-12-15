@@ -1,6 +1,17 @@
 # Books for our store  
 [ISBN lookup](https://isbnsearch.org/)
 
+book template 
+<!-- <title class="booktitle"><a href=""></a></title>
+<p class="description">
+    <span class="author"></span>
+    <span class="publisher"></span>
+    <span class="releasedate"></span>
+    <span class="ISBN"></span>
+    <span class="price"></span>
+    <span class="format"></span>
+</p> -->
+
 ## **Beginner**
 
 1. [Coding for Dummies](https://www.oreilly.com/library/view/coding-for-dummies/9781118951309/)  
@@ -223,7 +234,7 @@ Format:
 ***description*** pic   
 The agile model of software development has taken the world by storm. Now, in Agile Software Development, Second Edition, one of agile’s leading pioneers updates his Jolt Productivity award-winning book to reflect all that’s been learned about agile development since its original introduction.
 Next, he systematically illuminates the agile model, shows how it has evolved, and answers the questions developers and project managers ask most often, including
-  
+
 Author:Alistair Cockburn  
 Publisher: Addison-Wesley Professional  
 Release Date: October 2006  
