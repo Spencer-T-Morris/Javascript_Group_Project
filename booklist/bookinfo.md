@@ -110,8 +110,15 @@ Author: Jason R. Baron (Editor)
 Publisher: American Bar Association
 Release Date: June 5, 2018
 Language: English
-ISBN-10: 1634256573   
-3.[Regular Expressions Cookbook: Detailed Solutions in Eight Programming Languages ]()  
+ISBN-10: 1634256573     
+
+3.[Regular Expressions Cookbook: Detailed Solutions in Eight Programming Languages ](http://shop.oreilly.com/product/0636920023630.do)  
+  ***Description*** pic   
+  Take the guesswork out of using regular expressions. With more than 140 practical recipes, this cookbook provides everything you need to solve a wide range of real-world problems. Novices will learn basic skills and tools, and programmers and experienced users will find a wealth of detail. Each recipe provides samples you can use right away.  
+  Author: Steven Levithan, Jan Goyvaerts  
+Publisher: O'Reilly Media  
+Release Date: August 2012   
+
 4.[]()  
 5.[]()  
 
