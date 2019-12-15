@@ -122,17 +122,18 @@ Release Date: August 2012
 Price:
 Format:  
 
-4.[Mastering Advanced Git](http://shop.oreilly.com/product/0636920024774.do)  
-***Description***
+4.[Extreme Programming Explained: Embrace Change, Second Edition](https://www.oreilly.com/library/view/extreme-programming-explained/0321278658/)    
+***Description*** pic  
 
-Go beyond the basics and take Git to a higher level of productivity. If you’re familiar with this popular distributed revision control system (DVCS), Mastering Advanced Git will help you leverage Git’s powerful yet underused advanced features.
-Many developers are anxious to learn more about Git’s more complex capabilities, but unfortunately, not much documentation on them is available. For the first time on video, advanced Git features are demonstrated in an easy-to-grasp form with the use case, operation, and behavior all thoroughly explained.      
-Author:Tim Berglund, Matthew McCullough  
-Publisher: Addison-Wesley Signature Series   
-Release Date: November 30, 2018    
-ISBN-10: 0134757599  
-Price:  
-Format:  
+In this completely revised introduction to Extreme Programming (XP), Kent Beck describes how to improve your software development by integrating these highly desirable concepts into your daily development process.
+
+The first edition of Extreme Programming Explained is a classic. It won awards for its then-radical ideas for improving small-team development, such as having developers write automated tests for their own code and having the whole team plan weekly. Much has changed in five years.           
+Author:Cynthia Andres, Kent Beck  
+Publisher: Addison-Wesley Professional  
+Release Date: November 2004  
+ISBN: 0321278658    
+Price:    
+Format:    
 
 
 5.[Refactoring Improving the Design of Existing Code](https://martinfowler.com/books/refactoring.html)    
