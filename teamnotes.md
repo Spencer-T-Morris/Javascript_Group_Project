@@ -17,7 +17,3 @@ Hey guys - another attempt
 
 **spencer**
 push testing
-
-**Samantha**
-push testing...
-push test again
