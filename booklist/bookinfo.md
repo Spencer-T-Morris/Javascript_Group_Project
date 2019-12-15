@@ -196,13 +196,13 @@ format:
 
  
 
-3. [The Clean Coder: A Code of Conduct for Professional Programmers by Robert C. Martin](http://amzn.to/2EqFxlb)  
+3. [The Clean Coder: A Code of Conduct for Professional Programmers](https://www.oreilly.com/library/view/the-clean-coder/9780132542913/)  
 ***Description***  pic  
 	Compared to Law, Medicine, Engineering, Accounting, Programming is a relatevely easy field to enter. There're countless success stories of self-thought programmers. This book introduces to what a Professional Programmer is. The author shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act.
-    Author:   
-    Publisher:   
-    Release Date:   
-    ISBN:   
+    Author: Robert C. Martin  
+Publisher: Prentice Hall  
+Release Date: May 2011  
+ISBN: 9780132542913  
     Price:  
     Format:  
 
