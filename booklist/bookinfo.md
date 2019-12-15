@@ -100,8 +100,18 @@ price:
 format:  
 [Free PDF = Eloquent Javascript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 
-2.[]()   
-3.[]()  
+2.[Perspectives on Predictive Coding and Other Advanced Search Methods for the Legal Practitioner](https://www.amazon.com/Perspectives-Predictive-Advanced-Methods-Practitioner/dp/1634256573)  
+***Description*** pic  
+
+Reliance on manual and keyword search methods alone is increasingly seen as inadequate for searching large volumes of information. There are concerns about the accuracy and efficiency of these methods, especially as compared with more advanced search techniques. This book provides a set of perspectives on predictive coding and other advanced search techniques, as they are used today by lawyers in pursuit of e-discovery, in investigations, and in other legal contexts, such as information governance.  
+Author: Jason R. Baron (Editor)  
+ Michael D. Berman (Editor)  
+  Ralph C. Losey (Editor)
+Publisher: American Bar Association
+Release Date: June 5, 2018
+Language: English
+ISBN-10: 1634256573   
+3.[Regular Expressions Cookbook: Detailed Solutions in Eight Programming Languages ]()  
 4.[]()  
 5.[]()  
 
