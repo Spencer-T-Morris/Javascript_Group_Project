@@ -189,6 +189,18 @@ Hello, world.
 Facebook’s algorithms shaping the news. Self-driving cars roaming the streets. Revolution on Twitter and romance on Tinder. We live in a world constructed of code–and coders are the ones who built it for us. From acclaimed tech writer Clive Thompson comes a brilliant anthropological reckoning with the most powerful tribe in the world today, computer programmers, in a book that interrogates who they are, how they think, what qualifies as greatness in their world, and what should give us pause. They are the most quietly influential people on the planet, and Coders shines a light on their culture.
 
 Author: CLIVE THOMPSON
+Publisher:  Berkley Books
+Release Date: February 2005
+ISBN 0425198685
+Price:
+Format:
+
+[Pattern Recognition](https://www.goodreads.com/book/show/22320.Pattern_Recognition)
+***Description***
+Cayce Pollard is an expensive, spookily intuitive market-research consultant. In London on a job, she is offered a secret assignment: to investigate some intriguing snippets of video that have been appearing on the Internet. An entire subculture of people is obsessed with these bits of footage, and anybody who can create that kind of brand loyalty would be a gold mine for Cayce's client. But when her borrowed apartment is burgled and her computer hacked, she realizes there's more to this project than she had expected.
+
+
+Author: CLIVE THOMPSON
 Publisher:  Penguin Books
 Release Date: Mar 24, 2020
 ISBN 9780735220560
