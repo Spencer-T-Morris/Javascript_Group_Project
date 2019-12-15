@@ -109,19 +109,41 @@ Author: Jason R. Baron (Editor)
   Ralph C. Losey (Editor)
 Publisher: American Bar Association
 Release Date: June 5, 2018
-Language: English
-ISBN-10: 1634256573     
+ISBN-10: 1634256573
+Price:
+Format:     
 
 3.[Regular Expressions Cookbook: Detailed Solutions in Eight Programming Languages ](http://shop.oreilly.com/product/0636920023630.do)  
   ***Description*** pic   
   Take the guesswork out of using regular expressions. With more than 140 practical recipes, this cookbook provides everything you need to solve a wide range of real-world problems. Novices will learn basic skills and tools, and programmers and experienced users will find a wealth of detail. Each recipe provides samples you can use right away.  
-  Author: Steven Levithan, Jan Goyvaerts  
-Publisher: O'Reilly Media  
+  Author: Steven Levithan, Jan Goyvaerts    
+Publisher: O'Reilly Media        
 Release Date: August 2012   
+Price:
+Format:  
 
-4.[]()  
-5.[]()  
+4.[Mastering Advanced Git](http://shop.oreilly.com/product/0636920024774.do)  
+***Description***
 
+Go beyond the basics and take Git to a higher level of productivity. If you’re familiar with this popular distributed revision control system (DVCS), Mastering Advanced Git will help you leverage Git’s powerful yet underused advanced features.
+Many developers are anxious to learn more about Git’s more complex capabilities, but unfortunately, not much documentation on them is available. For the first time on video, advanced Git features are demonstrated in an easy-to-grasp form with the use case, operation, and behavior all thoroughly explained.      
+Author:Tim Berglund, Matthew McCullough  
+Publisher: Addison-Wesley Signature Series   
+Release Date: November 30, 2018    
+ISBN-10: 0134757599  
+Price:  
+Format:  
+
+
+5.[Refactoring Improving the Design of Existing Code](https://martinfowler.com/books/refactoring.html)    
+***Description***   
+Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant. By doing them in small steps you reduce the risk of introducing errors. You also avoid having the system broken while you are carrying out the restructuring - which allows you to gradually refactor a system over an extended period of time.  
+Author: Martin Fowler,  Kent Beck  
+Publisher: Addison-Wesley Signature Series   
+Release Date: November 30, 2018    
+ISBN-10: 0134757599  
+Price:  
+Format:
 
 
 ## **Career**
