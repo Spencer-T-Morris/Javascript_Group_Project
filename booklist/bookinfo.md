@@ -269,9 +269,8 @@ Format:
 3. [coders](https://www.penguinrandomhouse.com/books/539883/coders-by-clive-thompson/)
 
 ***description***
-ABOUT CODERS
-Hello, world.
 
+Hello, world.
 Facebook’s algorithms shaping the news. Self-driving cars roaming the streets. Revolution on Twitter and romance on Tinder. We live in a world constructed of code–and coders are the ones who built it for us. From acclaimed tech writer Clive Thompson comes a brilliant anthropological reckoning with the most powerful tribe in the world today, computer programmers, in a book that interrogates who they are, how they think, what qualifies as greatness in their world, and what should give us pause. They are the most quietly influential people on the planet, and Coders shines a light on their culture.
 
 Author: CLIVE THOMPSON
@@ -281,5 +280,15 @@ ISBN 9780735220560
 Price:
 Format:
 
-1. [Once Upon an Algorithm: How Stories Explain
-Computing]()
+4. [Once Upon an Algorithm: How Stories Explain
+Computing](https://www.barnesandnoble.com/w/once-upon-an-algorithm-martin-erwig/1125986359)
+***Description***
+How Hansel and Gretel, Sherlock Holmes, the movie Groundhog Day , Harry Potter, and other familiar stories illustrate the concepts of computing.
+
+Picture a computer scientist, staring at a screen and clicking away frantically on a keyboard, hacking into a system, or perhaps developing an app. Now delete that picture. In Once Upon an Algorithm , Martin Erwig explains computation as something that takes place beyond electronic computers, and computer science as the study of systematic problem solving. Erwig points out that many daily activities involve problem solving. Getting up in the morning, for example: You get up, take a shower, get dressed, eat breakfast. This simple daily routine solves a recurring problem through a series of well-defined steps. In computer science, such a routine is called an algorithm.
+Author: CLIVE THOMPSON
+Publisher:  MIT Press
+Release Date: August 11, 2017
+ISBN 9780262036634
+Price:
+Format:
