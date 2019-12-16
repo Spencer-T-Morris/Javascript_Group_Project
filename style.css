@@ -17,3 +17,16 @@ a{
 li{
     list-style: none;
 }
+
+/* cart */
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 70%;
+    margin:0;   
+
+}
+.bookdetails{
+    
+}
