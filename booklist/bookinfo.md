@@ -26,9 +26,6 @@ ISBN: 9781118951309
 price:
 format:  
 
-2. [Head First Design Patterns: A Brain-Friendly Guide](https://www.oreilly.com/library/view/head-first-design/0596007124/)  
-***Description:*** pic  
-     At any given moment, someone struggles with the same software design problems you have. And, chances are, someone else has already solved your problem. This edition of Head First Design Patterns—now updated for Java 8—shows you the tried-and-true, road-tested patterns used by developers to create functional, elegant, reusable, and flexible software. By the time you finish this book, you’ll be able to take advantage of the best design practices and experiences of those who have fought the beast of software design and triumphed.
 
      Author: Robert C. Martin  
     Publisher: O'Reilly Media; 1st edition   
@@ -348,7 +345,9 @@ Publisher: IT Revolution Press
 Release Date: November 26, 2019  
 ISBN-10: 1942788762  
 Price:  
-Format:  
+Format: 
+ 
+
 
 3. [coders](https://www.penguinrandomhouse.com/books/539883/coders-by-clive-thompson/)  
 
@@ -388,3 +387,11 @@ Release Date: Mar 24, 2020
 ISBN 9780735220560  
 Price:  
 Format:  
+Author: CLIVE THOMPSON
+Publisher:  Berkley Books
+Release Date: February 2005
+ISBN 0425198685
+Price:
+Format:
+
+
