@@ -25,14 +25,16 @@ Release Date: February 2015
 ISBN: 9781118951309  
 price:
 format:  
+  
+  2. [Head First ](https://www.oreilly.com/library/view/head-first-design/0596007124/) pic
+  ***Description***   
+  At any given moment, someone struggles with the same software design problems you have. And, chances are, someone else has already solved your problem. This edition of Head First Design Patterns—now updated for Java 8—shows you the tried-and-true, road-tested patterns used by developers to create functional, elegant, reusable, and flexible software. 
 
+Author: Kathy Sierra, Bert Bates, Elisabeth Robson, Eric Freeman
+Publisher: O'Reilly Media, Inc.
+Release Date: October 2004
+ISBN: 0596007124
 
-     Author: Robert C. Martin  
-    Publisher: O'Reilly Media; 1st edition   
-    Release Date: October 2004  
-    ISBN-10: 9780596007126  
-    Price:  
-    Format:  
 
 3. [Head First Learn to Code](https://www.oreilly.com/library/view/head-first-learn/9781491958858/)  
 ***Description*** pic   
