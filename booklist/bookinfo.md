@@ -381,17 +381,12 @@ Format:
 ***Description*** pic  
 Cayce Pollard is an expensive, spookily intuitive market-research consultant. In London on a job, she is offered a secret assignment: to investigate some intriguing snippets of video that have been appearing on the Internet. An entire subculture of people is obsessed with these bits of footage, and anybody who can create that kind of brand loyalty would be a gold mine for Cayce's client. But when her borrowed apartment is burgled and her computer hacked, she realizes there's more to this project than she had expected.  
 
-Author: CLIVE THOMPSON  
-Publisher:  Penguin Books  
-Release Date: Mar 24, 2020  
-ISBN 9780735220560  
+Author:  William Gibson 
+Publisher:  Berkley Books  
+Release Date:  2005 by  
+ISBN 0425198685  
 Price:  
 Format:  
-Author: CLIVE THOMPSON
-Publisher:  Berkley Books
-Release Date: February 2005
-ISBN 0425198685
-Price:
-Format:
+
 
 
