@@ -25,14 +25,16 @@ Release Date: February 2015
 ISBN: 9781118951309  
 price:
 format:  
+  
+  2. [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/) pic
+  ***Description***   
+  At any given moment, someone struggles with the same software design problems you have. And, chances are, someone else has already solved your problem. This edition of Head First Design Patterns—now updated for Java 8—shows you the tried-and-true, road-tested patterns used by developers to create functional, elegant, reusable, and flexible software. 
 
+Author: Kathy Sierra, Bert Bates, Elisabeth Robson, Eric Freeman
+Publisher: O'Reilly Media, Inc.
+Release Date: October 2004
+ISBN: 0596007124
 
-     Author: Robert C. Martin  
-    Publisher: O'Reilly Media; 1st edition   
-    Release Date: October 2004  
-    ISBN-10: 9780596007126  
-    Price:  
-    Format:  
 
 3. [Head First Learn to Code](https://www.oreilly.com/library/view/head-first-learn/9781491958858/)  
 ***Description*** pic   
@@ -97,6 +99,38 @@ Release Date: December 2008
 ISBN-13: 978-0596517748  
 price:   
 format:  
+
+[Lean and Agile Project Management](https://www.crcpress.com/Lean-and-Agile-Project-Management-How-to-Make-Any-Project-Better-Faster/Vanzant-Stern-PhD/p/book/9781498739160) pic
+***Description***
+When project managers are faced with budget cuts and fewer resources, waste elimination becomes a priority in maintaining effectiveness. This does not mean shortening or abandoning traditional project cycles, though. 
+Author:Terra Vanzant Stern, PhD
+Published December 15, 2016
+ISBN 9781498739160
+price:
+format:
+[Javascript & Jquery-Interactive front-end web development](http://javascriptbook.com/)
+***Description***
+This is not your average programming book.
+We understand that all kinds of people build websites these days (and that they don’t all have a degree in computer science).
+
+So, if you want to use JavaScript to make your web pages more interactive, interesting, and usable, we can help. Even if you have never done any programming.
+Author: Jon Duckett
+Published July 21, 2014
+ISBN  9781118871652
+price:
+format:
+
+[HTML and CSS: Design and Build Websites](http://www.htmlandcssbook.com/)
+***Description***
+Whether you want to design and build websites from scratch or take more control over an existing site, this book will help you create attractive, user-friendly web content. We understand that code can be intimidating, but take a look inside and you will see how this guide differs from many traditional programming books.
+
+Each page introduces a new topic in a simple, visual way with straightforward explanations accompanied by bite-sized code samples. You will also find practical help on how to organize and design the pages of your site so that you can create websites that look stunning and are easy to use. No previous experience needed.
+
+Author: Jon Duckett
+Published November 8, 2011
+ISBN 1118008189
+price:
+format
 
 ## **Advanced**  
 
@@ -381,17 +415,12 @@ Format:
 ***Description*** pic  
 Cayce Pollard is an expensive, spookily intuitive market-research consultant. In London on a job, she is offered a secret assignment: to investigate some intriguing snippets of video that have been appearing on the Internet. An entire subculture of people is obsessed with these bits of footage, and anybody who can create that kind of brand loyalty would be a gold mine for Cayce's client. But when her borrowed apartment is burgled and her computer hacked, she realizes there's more to this project than she had expected.  
 
-Author: CLIVE THOMPSON  
-Publisher:  Penguin Books  
-Release Date: Mar 24, 2020  
-ISBN 9780735220560  
+Author:  William Gibson 
+Publisher:  Berkley Books  
+Release Date:  2005 by  
+ISBN 0425198685  
 Price:  
 Format:  
-Author: CLIVE THOMPSON
-Publisher:  Berkley Books
-Release Date: February 2005
-ISBN 0425198685
-Price:
-Format:
+
 
 
