@@ -108,7 +108,29 @@ Published December 15, 2016
 ISBN 9781498739160
 price:
 format:
+[Javascript & Jquery-Interactive front-end web development](http://javascriptbook.com/)
+***Description***
+This is not your average programming book.
+We understand that all kinds of people build websites these days (and that they don’t all have a degree in computer science).
 
+So, if you want to use JavaScript to make your web pages more interactive, interesting, and usable, we can help. Even if you have never done any programming.
+Author: Jon Duckett
+Published December 15, 2016
+ISBN 9781498739160
+price:
+format:
+
+[HTML and CSS: Design and Build Websites](http://www.htmlandcssbook.com/)
+***Description***
+Whether you want to design and build websites from scratch or take more control over an existing site, this book will help you create attractive, user-friendly web content. We understand that code can be intimidating, but take a look inside and you will see how this guide differs from many traditional programming books.
+
+Each page introduces a new topic in a simple, visual way with straightforward explanations accompanied by bite-sized code samples. You will also find practical help on how to organize and design the pages of your site so that you can create websites that look stunning and are easy to use. No previous experience needed.
+
+Author: Jon Duckett
+Published November 8, 2011
+ISBN 1118008189
+price:
+format
 
 ## **Advanced**  
 
