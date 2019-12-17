@@ -115,8 +115,8 @@ We understand that all kinds of people build websites these days (and that they 
 
 So, if you want to use JavaScript to make your web pages more interactive, interesting, and usable, we can help. Even if you have never done any programming.
 Author: Jon Duckett
-Published December 15, 2016
-ISBN 9781498739160
+Published July 21, 2014
+ISBN  9781118871652
 price:
 format:
 
