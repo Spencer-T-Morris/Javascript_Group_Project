@@ -100,6 +100,16 @@ ISBN-13: 978-0596517748
 price:   
 format:  
 
+[Lean and Agile Project Management](https://www.crcpress.com/Lean-and-Agile-Project-Management-How-to-Make-Any-Project-Better-Faster/Vanzant-Stern-PhD/p/book/9781498739160) pic
+***Description***
+When project managers are faced with budget cuts and fewer resources, waste elimination becomes a priority in maintaining effectiveness. This does not mean shortening or abandoning traditional project cycles, though. 
+Author:Terra Vanzant Stern, PhD
+Published December 15, 2016
+ISBN 9781498739160
+price:
+format:
+
+
 ## **Advanced**  
 
 1.[Eloquent JavaScript](https://www.oreilly.com/library/view/eloquent-javascript-3rd/9781492071198/)  
