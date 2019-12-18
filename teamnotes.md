@@ -23,6 +23,12 @@ do we need a disclaimer on condition
 Say that all books are brand new or all books are used etc ?
 removed PROGit from the booklist 
 
+
+## *12/17/2019*
+
+We need to add a link to each of the pages so that they can go back to the home page 
+
+
 [Free PDF = Pro Git](https://git-scm.com/book/en/v2)
 **Ryan**
 
