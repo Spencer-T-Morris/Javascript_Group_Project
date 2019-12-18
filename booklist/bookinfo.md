@@ -382,7 +382,7 @@ Format:
  
 
 
-3. [coders](https://www.penguinrandomhouse.com/books/539883/coders-by-clive-thompson/)  
+3. [Coders](https://www.penguinrandomhouse.com/books/539883/coders-by-clive-thompson/)  
 
 ***description*** pic   
 
