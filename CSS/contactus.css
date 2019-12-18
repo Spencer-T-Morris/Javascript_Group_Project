@@ -27,6 +27,19 @@ background: -webkit-linear-gradient(160deg, rgba(244, 247, 244, 0.3) 0%, rgba(33
 background: linear-gradient(160deg, rgba(9, 172, 9, 0.3) 0%, rgba(33, 117, 8, 0.3) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
 }
+.container{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+   right: 50%;
+   transform: translate(-50%,-50%);
+   display:flex;
+
+   box-shadow: 0 2px 15px rgba(33, 117, 8, 0.3);
+   border-radius:15px ;
+   overflow: hidden;
+}
 
 
 
