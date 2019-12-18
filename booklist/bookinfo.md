@@ -264,8 +264,7 @@ Format:
 5. [Agile Software Development: The Cooperative Game, Second Edition](https://www.oreilly.com/library/view/agile-software-development/0321482751/)  
 ***description*** pic   
 The agile model of software development has taken the world by storm. Now, in Agile Software Development, Second Edition, one of agile’s leading pioneers updates his Jolt Productivity award-winning book to reflect all that’s been learned about agile development since its original introduction.
-Next, he systematically illuminates the agile model, shows how it has evolved, and answers the questions developers and project managers ask most often, including
-
+Next, he systematically illuminates the agile model, shows how it has evolved, and answers the questions developers and project managers ask most often.
 Author:Alistair Cockburn  
 Publisher: Addison-Wesley Professional  
 Release Date: October 2006  
