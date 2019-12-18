@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.filter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgb(83,19,166);
+background: -moz-linear-gradient(160deg, rgba(83,19,166,0.3) 0%, rgba(247,72,255,0.3) 100%);
+background: -webkit-linear-gradient(160deg, rgba(83,19,166,0.3) 0%, rgba(247,72,255,0.3) 100%);
+background: linear-gradient(160deg, rgba(83,19,166,0.3) 0%, rgba(247,72,255,0.3) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
+}
+.container{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    
+    box-shadow: 0 2px 15px rgba(53,53,53,.7);
+    border-radius: 15px;
+    overflow: hidden;
+   
+}
+.desc{
+    width: 50%;
+    padding: 30px;
+
+    background: rgb(83,19,166);
+background: -moz-linear-gradient(160deg, rgba(83,19,166,1) 0%, rgba(247,72,255,1) 100%);
+background: -webkit-linear-gradient(160deg, rgba(83,19,166,1) 0%, rgba(247,72,255,1) 100%);
+background: linear-gradient(160deg, rgba(83,19,166,1) 0%, rgba(247,72,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
+}
+.desc h1{
+    text-align: center;
+    color: #fafafa;
+        margin-bottom: 50px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+}
+.desc p{
+   
+    color: #fafafa;
+    font-family: 'Open Sans',sans-serif;
+}
+.form{
+    background-color: #fff;
+    width: 50%;
+    padding:30px;
+}
+.form h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 50px;
+}
+.form label{
+    font-family: 'Montserat',sans-serif;
+    margin-bottom: 20px;
+}
+.form input{
+    width: calc(100% - 20px );
+    padding: 5px 10px;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px solid rgb(83,19,166);
+    margin-bottom: 20px;
+     font-family: 'Montserat',sans-serif;
+}
+.form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    height: 150px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgb(83,19,166);
+    margin-bottom: 20px;
+    font-size: 1.2em;
+     font-family: 'Montserat',sans-serif;
+}
+::placeholder{
+    color: rgba(83,19,166,.4);
+}
+.form button{
+    cursor: pointer;
+     width: 100% ;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+      background: rgb(83,19,166);
+background: -moz-linear-gradient(160deg, rgba(83,19,166,1) 0%, rgba(247,72,255,1) 100%);
+background: -webkit-linear-gradient(160deg, rgba(83,19,166,1) 0%, rgba(247,72,255,1) 100%);
+background: linear-gradient(160deg, rgba(83,19,166,1) 0%, rgba(247,72,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
+    transition: all .4s;
+}
+.form button:hover{
+      opacity: .7;
+
+}
