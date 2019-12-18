@@ -50,5 +50,12 @@ background: -webkit-linear-gradient(160deg, rgba(25, 110, 68) 0%, rgba(126, 148,
 background: linear-gradient(160deg, rgba(25, 110, 68) 0%, rgba(126, 148, 137) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
 }
-
+.desc h1{
+    text-align: center;
+    color: #fafafa;
+        margin-bottom: 50px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Courier',sans-serif;
+}
 
