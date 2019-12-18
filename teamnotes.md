@@ -25,7 +25,9 @@ removed PROGit from the booklist
 
 
 ## *12/17/2019*
-
+all the book pages are done. 
+All ready to style. 
+Will get started on the contact us modal 
 We need to add a link to each of the pages so that they can go back to the home page 
 
 
