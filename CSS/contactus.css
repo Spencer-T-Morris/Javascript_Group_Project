@@ -40,6 +40,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
    border-radius:15px ;
    overflow: hidden;
 }
+.desc{
+    width: 50%;
+    padding: 30px;
 
+    background: rgb(83,19,166);
+background: -moz-linear-gradient(160deg, rgb(25, 110, 68) 0%, rgb(126, 148, 137) 100%);
+background: -webkit-linear-gradient(160deg, rgba(25, 110, 68) 0%, rgba(126, 148, 137) 100%);
+background: linear-gradient(160deg, rgba(25, 110, 68) 0%, rgba(126, 148, 137) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
+}
 
 
