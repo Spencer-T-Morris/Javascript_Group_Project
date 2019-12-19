@@ -16,6 +16,10 @@
     list-style-type: none;
 }
 
+nav li {
+    font-size: 15px;
+}
+
 footer {
     border: 1px grey solid;
     width: 100vw;
@@ -25,7 +29,9 @@ footer {
     width: 100%;
 }
 
-
+p {
+    text-align: center;
+}
 
 
 
@@ -89,7 +95,6 @@ footer {
 }
 
 h2 {
-    font-family: ;
     margin: 85px 55px 55px 55px;
     font-size: 45px;
     display: flex;
@@ -102,7 +107,7 @@ h2 {
 }
 
 .email-input {
-    width: 250px;
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 10px;
     border-radius: 100px;
@@ -134,13 +139,15 @@ h3 {
 .input-and-button {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
 }
- 
+
 #search-bar {
-    width: 275px;
+    width: 100%;
     height: 25px;
     padding: 0px 5px;
-    margin: 0px 0px 10px 10px;
+    margin: 30px 10px 10px 10px;
     font-size: 15px;
     border-radius: 3px;
     background-color: lightgray;
@@ -154,6 +161,9 @@ h3 {
     background-color: green;
     color: white;
     font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }
 
 .space-between {
@@ -179,84 +189,53 @@ h3 {
     }
     
     #navbar {
-
+        
     }
     
     #mainlogo {
-
+        
     }
     
     footer {
-        border: 1px grey solid;
-        width: 100vw;
         flex-direction: row;
         justify-content: space-around;
-        /* position: fixed;
-        left: 0;
-        bottom: 0; */
-        width: 100%;
     }
     
     #landingphoto {
-        background-image: url(../Images/mainphoto.jpg);
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: white;
+        
     }
     
     h2 {
-        font-family: ;
-        margin: 85px 55px 55px 55px;
-        font-size: 45px;
-        display: flex;
-        align-items: center;
+        
     }
     
     .small-text {
-        font-size: 20px;
-        font-weight: 300;
+        
     }
     
     .email-input {
         width: 250px;
-        padding: 12px 20px;
-        margin: 8px 10px;
-        border-radius: 100px;
-        font-size: 15px;
-        text-align: center;
     }
     
     .sign-up-button {
-        width: 200px;
-        padding: 10px 20px;
-        margin: 8px 10px;
-        border-radius: 100px;
-        font-size: 20px;
-        color: green;
-        font-weight: 900;
         
     }
     
     h3 {
-        font-size: 20px;
-        font-weight: normal;
-        text-align: center;
+        
     }
     
     .newsletter-div {
-        margin-top: 50px
+        
     }
     
     .input-and-button {
         display: flex;
         align-items: center;
+        flex-direction: row;
+        margin-bottom: 150px;
     }
-     
+    
     #search-bar {
         width: 275px;
         height: 25px;
@@ -268,19 +247,13 @@ h3 {
     }
     
     #cart-button {
-        padding: 5px 15px;
-        margin: 8px 10px;
-        border-radius: 100px;
-        font-size: 15px;
-        background-color: green;
-        color: white;
-        font-weight: bold;
+        position: relative;
+        right: 0px;
+        top: 0px;
     }
     
     .space-between {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
+        
     }
     
     
