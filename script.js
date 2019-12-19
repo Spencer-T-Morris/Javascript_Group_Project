@@ -1,5 +1,6 @@
 // LISTS ALL THE BOOKS AND THEIR DESCRIPTORS
 // 'RECEIPT: ' IS ONLY USED IN THE RECEIPT FUNCTION, TO ABBREVIATE THE TITLES FOR A CLEANER RECEIPT
+
 const allBooks = [
 
     // 'BEGINNER' BOOKS
@@ -23,7 +24,7 @@ const allBooks = [
                     price:      28.00,
                     receipt:    "HEAD1 DSGN PTRN"
             },
-        
+            
             {
                     title:      "Head First Learn to Code: A Lerner's Guide to Coding and Computational Thinking", 
                     author:     "Eric Freeman", 
@@ -65,7 +66,7 @@ const allBooks = [
                     price:      9.00,
                     receipt:    "U DON'T KNOW JS"
             },
-        
+            
             {
                     title:      "JavaScript: The Good Parts", 
                     author:     "Douglas Crockford", 
@@ -75,7 +76,7 @@ const allBooks = [
                     price:      15.00,
                     receipt:    "JS:  GOOD PARTS"
             },
-        
+            
     // 'ADVANCED' BOOKS
     
             {
@@ -87,7 +88,7 @@ const allBooks = [
                     price:      23.99,
                     receipt:    "ELQUNT JVASCRPT"
             },
-        
+            
             {
                     title:      "Perspectives on Predictive Coding and Other Advanced Search Methods for the Legal Practitioner", 
                     author:     "Jason R. Baron, Michael D. Berman, Ralph C. Losey", 
@@ -170,7 +171,7 @@ const allBooks = [
                     price:      16.99,
                     receipt:    "BUS VAL DEV REL"
             },
-        
+            
             {
                     title:      "Agile Software Development: The Cooperative Game, 2nd Edition", 
                     author:     "Alistair Cockburn", 
@@ -180,7 +181,7 @@ const allBooks = [
                     price:      29.99,
                     receipt:    "AGILE SFTWR DEV"
             },
-        
+            
     // 'PROFESSIONAL DEVELOPMENT' BOOKS
     
             {
@@ -192,7 +193,7 @@ const allBooks = [
                     price:      35.99,
                     receipt:    "TEST DRVN DSIGN"
             },
-        
+            
             {
                     title:      "The Pragmatic Programmer", 
                     author:     "Andrew Hunt, David Thomas", 
@@ -212,7 +213,7 @@ const allBooks = [
                     price:      25.99,
                     receipt:    "CLEAN CODR COND"
             },
-        
+            
             {
                     title:      "Clean Code: A Handbook of Agile Software Craftsmanship", 
                     author:     "Robert C. Martin", 
@@ -244,7 +245,7 @@ const allBooks = [
             },
     
     // 'FICTION' BOOKS
-        
+            
             {
                     title:      "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win", 
                     author:     "Gene Kim, Kevin Behr", 
@@ -254,7 +255,7 @@ const allBooks = [
                     price:      15.99,
                     receipt:    "PHNX PROJ A NOV"
             },
-        
+            
             {
                     title:      "The Unicorn Project: A Novel About Developers, Digital Disruption, and Thriving in the Age of Data", 
                     author:     "Gene Kim, Frankie Corzo", 
@@ -264,7 +265,7 @@ const allBooks = [
                     price:      9.99,
                     receipt:    "UNICORN PROJECT"
             },
-        
+            
             {
                     title:      "Coders: The Making of a New Tribe and the Remaking of the World", 
                     author:     "Clive Thompson", 
@@ -284,7 +285,7 @@ const allBooks = [
                     price:      25.99,
                     receipt:    "ONC UPN ALG HOW"
             },
-        
+            
             {
                     title:      "Pattern Recognition", 
                     author:     "William Gibson", 
@@ -295,6 +296,7 @@ const allBooks = [
                     receipt:    "PATTERN RECOGNI"
             }
     ];
+    
     //----------------------------------------------------------------------------------------------
     
     // INITIALIZES AN EMPTY SHOPPING CART
@@ -314,10 +316,11 @@ const allBooks = [
     
             let i = 0;
             while (i < allBooks.length) 
-            {       // IF STATEMENT TO SEARCH FOR ANY POSSIBLE RESULT
-                    if (key === allBooks[i].title.toLowerCase() || key == allBooks[i].author.toLowerCase() || 
-                            key == allBooks[i].category.toLowerCase() || key == allBooks[i].ISBN || 
-                            key == allBooks[i].format.toLowerCase() || key == allBooks[i].price)
+            {       
+                    // IF STATEMENT TO SEARCH FOR ANY POSSIBLE RESULT
+                    if (allBooks[i].title.toLowerCase().includes(key) || allBooks[i].author.toLowerCase().includes(key) || 
+                            allBooks[i].category.toLowerCase().includes(key) || allBooks[i].ISBN.includes(key) || 
+                            allBooks[i].format.toLowerCase().includes(key) || allBooks[i].price.toString().includes(key))
                     {
     
                             searchArray == searchArray.push(allBooks[i]);   // FOR OTHER FUNCTIONS
@@ -338,16 +341,23 @@ const allBooks = [
             }
     
             // DEPENDING ON THE ABOVE RESULTS, ONE OF THE FOLLOWING 2 STATEMENTS LOGS THE RESULTS
-            if (searchArray.length != 0) 
+            let searchLogs;
+    
+            if (searchArray.length != 0) // IF RESULTS FOUND
             {
                     searchPrint = searchPrint.join('');
-                    console.log("\n" + "THE BOOKS THAT MEET YOUR SEARCH CRITERIA OF '" + key.toUpperCase() + "' ARE: \n");
-                    console.log(searchPrint);
+    
+                    searchLogs = ("\n" + "THE BOOKS THAT MEET YOUR SEARCH CRITERIA OF '" + key.toUpperCase() + "' ARE: \n\n" + searchPrint);
+    
+                    console.log(searchLogs);
             } 
             else 
             {
-                    console.log ("\n" + "NO RESULTS MEET SEARCH CRITERIA." + "\n");
+                    searchLogs = ("\n" + "NO RESULTS MEET SEARCH CRITERIA." + "\n");
+    
+                    console.log(searchLogs); // IF RESULTS NOT FOUND
             }
+            return searchLogs;
     }
     
     //---------------------------------------------------------------------------------------------------------------
@@ -384,17 +394,24 @@ const allBooks = [
                     }
             }
     
+    
             // PRINTS THE BOOK(S) AND NUMBER OF ITEMS THAT WERE ADDED TO SHOPPING CART, IF ANY
-            if (addArray.length != 0) 
+            let addLogs;
+    
+            if (addArray.length != 0) // IF BOOK WAS FOUND
             {
                     addPrint = addPrint.join('');
-                    console.log("\n" + "THE FOLLOWING ITEM(S) HAS/HAVE BEEN ADDED TO YOUR SHOPPING CART: " + "\n");
-                    console.log(addPrint);
-                    console.log("NUMBER OF ITEMS ADDED: " + addArray.length + "\n");
+    
+                    addLogs = ("\n" + "THE FOLLOWING ITEM(S) HAS/HAVE BEEN ADDED TO YOUR SHOPPING CART: " + "\n\n" + addPrint + "\n" + 
+                                    "NUMBER OF ITEMS ADDED: " + addArray.length + "\n");
+    
+                    console.log(addLogs);
             } 
-            else 
+            else if (addArray.length == 0) // IF BOOK NOT FOUND
             {
-                    console.log ("ITEM UNKNOWN.  NO ITEMS HAVE BEEN ADDED TO YOUR SHOPPING CART." + "\n");
+                    addLogs = ("\n" + "ITEM UNKNOWN.  NO ITEMS HAVE BEEN ADDED TO YOUR SHOPPING CART." + "\n");
+    
+                    console.log (addLogs);
             }
     
             // THIS LOOP WILL TAKE THE BOOKS IN THE 'ADDARRAY' ARRAY AND ACTUALLY ADD THEM TO THE SHOPPING CART
@@ -402,6 +419,8 @@ const allBooks = [
             {
                     cart == cart.push(addArray[i]);
             }
+    
+            return addLogs;
     }
     //------------------------------------------------------------------------------------------
     
@@ -437,18 +456,25 @@ const allBooks = [
                     }
             }
     
-            // PRINTS THE BOOK(S) AND NUMBER OF ITEMS THAT WERE FROM SHOPPING CART, IF ANY
-            if (removedArray.length != 0) 
+            // PRINTS THE BOOK(S) AND NUMBER OF ITEMS THAT WERE REMOVED FROM SHOPPING CART, IF ANY
+            let removeLogs;
+    
+            if (removedArray.length != 0) // IF BOOK FOUND
             {
                     removedPrint = removedPrint.join('');
-                    console.log("\n" + "THE FOLLOWING ITEM(S) HAS/HAVE BEEN REMOVED FROM YOUR SHOPPING CART: " + "\n");
-                    console.log(removedPrint);
-                    console.log("NUMBER OF ITEMS REMOVED: " + removedArray.length + "\n");
+    
+                    removeLogs = ("\n" + "THE FOLLOWING ITEM(S) HAS/HAVE BEEN REMOVED FROM YOUR SHOPPING CART: " + "\n\n" + removedPrint + 
+                                            "\n" + "NUMBER OF ITEMS REMOVED: " + removedArray.length + "\n");
+    
+                    console.log(removeLogs);
             } 
-            else 
+            else // IF BOOK NOT FOUND
             {
-                    console.log ("ITEM(S) UNKNOWN.  NO ITEMS HAVE BEEN REMOVED FROM YOUR SHOPPING CART." + "\n");
+                    removeLogs = ("ITEM(S) UNKNOWN.  NO ITEMS HAVE BEEN REMOVED FROM YOUR SHOPPING CART." + "\n");
+    
+                    console.log(removeLogs);
             }
+            return removeLogs;
     }
     
     
@@ -460,7 +486,6 @@ const allBooks = [
     {
             let subtotal = 0;
             let tax = 0;
-            // total = 0;
             for (i = 0; i < cart.length; i++)
             {
                     subtotal += cart[i].price;
@@ -478,18 +503,20 @@ const allBooks = [
     
             // CALLS THE RESULTS FROM THE 'CARTCOST() FUNCTION
             let cartViewCost = cartCost();
-            let subtotal1 = cartViewCost[0];
-            let tax1 = cartViewCost[1];
-            let total1 = cartViewCost[2];
+            let subtotal = cartViewCost[0];
+            let tax = cartViewCost[1];
+            let total = cartViewCost[2];
     
             //A LOOP TO PRINT ITEMS IN SHOPPING CART, AND THEIR PRICE WITH TAX
-            if (cart.length != 0)
-            {
-                    console.log("\n" + "THE FOLLOWING ITEM(S) IS/ARE IN YOUR SHOPPING CART: " + "\n");
+            let cartLogs;
+            let cartLogArray = [];
+    
+            if (cart.length != 0) // IF THERE ARE ITEMS IN SHOPPING CART
+            {    
                     for (i = 0; i < cart.length; i++)
                     {
                             // THIS LOG METHOD JUST PRINTS THE CART IN A LEGIBLE MANNER
-                            console.log(                  
+                            cartLogArray == cartLogArray.push(                  
                                     "Title:     " + cart[i].title + "\n",
                                     "Author:    " + cart[i].author + "\n",
                                     "Category:  " + cart[i].category + "\n",
@@ -497,16 +524,22 @@ const allBooks = [
                                     "Format:    " + cart[i].format + "\n",
                                     "Price:     " + cart[i].price + "\n\n");
                     }
-                    console.log("\n" + "THE NUMBER OF ITEMS IN YOUR SHOPPING CART: " + cart.length + "\n");
-    
-                    console.log ("\n" + "THE SUBTOTAL OF ALL ITEMS IN YOUR SHOPPING CART IS:                     " + '$' + subtotal1);
-                    console.log ("THE TOTAL SALES TAX, AT 6%, FOR ALL ITEMS IN YOUR SHOPPING CART IS:     " + '$' + tax1);
-                    console.log ("THE TOTAL COST, TO PURCHASE ALL ITEMS IN YOUR SHOPPING CART, IS:        " + '$' + total1 + "\n");
+                    cartLogs = ("\n" + "THE FOLLOWING ITEM(S) IS/ARE IN YOUR SHOPPING CART: " + 
+                                "\n\n" + cartLogArray.join('') + "\n" + 
+                                "THE NUMBER OF ITEMS IN YOUR SHOPPING CART: " + cart.length + "\n\n\n" + 
+                                "THE SUBTOTAL OF ALL ITEMS IN YOUR SHOPPING CART IS:                     " + '$' + subtotal + "\n" + 
+                                "THE TOTAL SALES TAX, AT 6%, FOR ALL ITEMS IN YOUR SHOPPING CART IS:     " + '$' + tax + "\n" + 
+                                "THE TOTAL COST, TO PURCHASE ALL ITEMS IN YOUR SHOPPING CART, IS:        " + '$' + total + "\n");
+                        
+                    console.log(cartLogs);
             }
-            else
+            else // IF THERE ARE NO ITEMS IN SHOPPING CART
             {
-                    console.log("\n" + "YOUR SHOPPING CART IS EMPTY!" + "\n");
+                    cartLogs = ("\n" + "YOUR SHOPPING CART IS EMPTY!" + "\n");
+    
+                    console.log(cartLogs);
             }
+            return cartLogs;
     }
     
     //-------------------------------------------------------------------------------------------------------
@@ -516,71 +549,129 @@ const allBooks = [
     {
             // CALLS THE RESULTS FROM THE 'CARTCOST()' FUNCTION
             let changeCost = cartCost();
-            let total2 = changeCost[2];
-            let changeDue = (payment - total2);
-            let pymntDue = (total2 - payment);
+            let total = changeCost[2];
+            let changeDue = (payment - total);
+            let pymntDue = (total - payment);
     
-            if (payment == total2) 
+            let changeLogs;
+    
+            if (payment == total) 
             {
-                    console.log ("\n" + "CHANGE DUE THE CUSTOMER: $0.00" + "\n");
+                    changeLogs = ("\n" + "CHANGE DUE THE CUSTOMER: $0.00" + "\n");
+    
+                    console.log(changeLogs);
             }
-            else if (payment > total2)
+            else if (payment > total)
             {
-                    console.log("\n" + "CHANGE DUE THE CUSTOMER: " + "$" + changeDue);
+                    changeLogs = ("\n" + "CHANGE DUE THE CUSTOMER: " + "$" + changeDue + "\n");
+    
+                    console.log(changeLogs);
             }
-            else if (total2 > payment)
+            else if (total > payment)
             {
-                    console.log ("\n" + "PAYMENT IS SHORT.  " + "$" + pymntDue + " IS NEEDED YET.");
+                    changeLogs = ("\n" + "PAYMENT IS SHORT.  " + "$" + pymntDue + " IS NEEDED YET." + "\n");
+    
+                    console.log(changeLogs);
             }
-            let paymentMade = payment;
-            console.log("from change" + payment);
-            return [total2, payment];
+            return(changeLogs, payment);
     }
     //-----------------------------------------------------------------------------------------------------
     
     // FUNCTION FOR RECEIPT
-    function receipt()
+    function receipt(payment)
     {
-            change.call(payment);
             let receiptCost = cartCost();
-            let subtotal3 = receiptCost[0];
-            let tax3 = receiptCost[1];
-            let total3 = receiptCost[2];
-            let receiptPayment = change();
-            let payment3 = this.payment;
+            let subtotal = receiptCost[0];
+            let tax = receiptCost[1];
+            let total = receiptCost[2];
     
-            console.log ("\n" + "RECEIPT, JUST FOR YOU!!" + "\n");
+            let receiptLogs;
+            let receiptLogs1;
+            let receiptLogArray = [];
+    
             for (i = 0; i < cart.length; i++)
             {
-                    console.log([i+1] + " - " + cart[i].receipt + "               " + cart[i].price);
+                    receiptLogArray == receiptLogArray.push([i+1] + " - " + cart[i].receipt + "               " + cart[i].price + "\n");
             }
+
+            receiptLogs = ("\n" + "RECEIPT, JUST FOR YOU!!" + "\n\n" +
+                            receiptLogArray.join('') + 
+                            "\n" + "Subtotal for all items:           " + subtotal + "\n" + 
+                            "Tax, at 6%, for all items:        " + tax + "\n" + 
+                            "Total cost for all items:         " + total + "\n" + 
+                            "\n" + "Change tendered:                  " + payment);
+
     
-            console.log("\n" + "Subtotal for all items:           " + subtotal3);
-            console.log("Tax, at 6%, for all items:        " + tax3);
-            console.log("Total cost for all items:         " + total3);
-            console.log("Change tendered:                  " + payment3);
-            console.log("\n");
+            console.log(receiptLogs);
+    
+            if (payment == total)
+            {
+                    receiptLogs1 = ("Change due the customer:          $0.00!  Have a good day!" + "\n");
+    
+                    console.log(receiptLogs1);
+            } 
+            else if (payment < total) 
+            {
+                    receiptLogs1 = ("Please pay this amount:           " + (total - payment) + "\n");
+    
+                    console.log(receiptLogs1);
+            } 
+            else if (payment > total)
+            {
+                    receiptLogs1 = ("Change due the customer:          " + (payment - total) + "\n");
+    
+                    console.log(receiptLogs1);
+            }
+        
+            return (receiptLogs, receiptLogs1);
+    }
+        
+    //-----------------------------------------------------------------------------------------------------
+    
+    // RUNS THE CREDIT CARD!
+    function creditCard(ccNumber, expiration, CVV)
+    {
+            if(isNaN(ccNumber))
+            {
+                return "Please enter a valid 16 digit Credit card Number."
+            }
+            else if(isNaN(expiration))
+            {
+                return "Please enter a valid 4 digit experaition date."
+            }
+            else if (isNaN(CVV))
+            {
+                return "Please enter a vaild 3 digit CVV number."
+            }
+            else 
+            {
+                return "Your order ahs been processed.Thank you for visiting our webiste and we hop you enjoy your new books."
+            }
     }
     
     //-----------------------------------------------------------------------------------------------------
     
     //FUNCTIONS WITH ARGUMENTS
     
-    // bookSearch("beginner");
+    // bookSearch("martin");
     
-    addBook("0321146530");
+    // bookSearch("paperbdfack");
     
-    addBook("1942788762");
+//     addBook("0321146530");
     
-    addBook("9780596007126");
+//     addBook("0425198685");
     
     // addBook("978148423bfg7489");
     
-    // removeBook("1942788762");
+    // removeBook("0425198685");
     
-    cartView();
+    // removeBook("042519sdf8685");
     
-    change(100);
+    // cartView();
     
-    receipt();
+    // creditCard(1111111111111111, 1025, 564);
+    
+//     const payment = change(47.6788);
+    
+//     receipt(payment);
     
