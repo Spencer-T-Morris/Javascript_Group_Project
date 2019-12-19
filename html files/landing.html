@@ -7,39 +7,65 @@
     <title>Grand Circus New POS on the Block Project </title>
     <link rel="stylesheet" href="/Users/samanthastutzman/Dropbox (Personal)/Grand Circus/3 Bootcamp/Javascript_Group_Project/Javascript_Group_Project/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
 </head>
 <body>    
     
     <header> 
         
-        <img id="mainlogo" src="/Users/samanthastutzman/Dropbox (Personal)/Grand Circus/3 Bootcamp/Javascript_Group_Project/Javascript_Group_Project/Images/logo.jpg">
+        <img id="mainlogo" src="../Images/logo.jpg">
         
-        <nav id="navbar">           
-                <li><a href="/html files/begin.html">beginner</a></li>
-                <p>|</p>
-                <li><a href="/html files/intermediate.html">intermediate</a></li>
-                <p>|</p>
-                <li><a href="/html files/advanced.html">Advance</a></li>
-                <p>|</p>
-                <li><a href="/html files/career.html">Career</a></li>
-                <p>|</p>
-                <li><a href="/html files/prodev.html">Professional Development</a></li>
-                <p>|</p>
-                <li><a href="/html files/fiction.html">Fiction</a></li>
+        <span class="space-between">
+            <input type="text" placeholder="Search for your next adventure here" id="search-bar">
+            <button id="cart-button">checkout</button>
+        </span>
+        
+        <nav id="navbar">     
+            <p class="display-none">|</p>      
+            <li><a href="../html files/begin.html">beginner</a></li>
+            <p class="display-none">|</p>
+            <li><a href="../html files/intermediate.html">intermediate</a></li>
+            <p class="display-none">|</p>
+            <li><a href="../html files/advanced.html">advance</a></li>
+            <p class="display-none">|</p>
+            <li><a href="../html files/career.html">career</a></li>
+            <p class="display-none">|</p>
+            <li><a href="../html files/prodev.html">professional development</a></li>
+            <p class="display-none">|</p>
+            <li><a href="../html files/fiction.html">fiction</a></li>
+            <p class="display-none">|</p>
         </nav>
-        
-        <img src="/Users/samanthastutzman/Dropbox (Personal)/Grand Circus/3 Bootcamp/Javascript_Group_Project/Javascript_Group_Project/Images/mainphoto.jpg" alt="books" class="mainphoto">
-
+    </header>
     
-        <footer>
-            <p>our.email@gmail.com</p>
-            <p>555-555-5555</p>
-            <p>FAQ</p>
-            <p>About Us</p>
-            <p>Follow Us <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a> </p>
-        </footer>
+    <div id="landingphoto">
+        <h2><span class="small-text">by</span>DEVS<span class="small-text">for</span>DEVS</h2>
+        <p class="small-text">Four Grand Circus students recommending their top IT books picks.</p>
+        <p class="small-text">These are on our lists. What is on yours?</p>
+        
+        <div class="newsletter-div">
+            <h3>What to be friends? Sign up for our newsletter.</h3>
+            <span class="input-and-button">
+                <input type="text" placeholder="ENTER EMAIL HERE" class="email-input">
+                <button class="sign-up-button">SIGN UP NOW!</button>
+            </span>
+        </div>
+    </div>
+    
+    <footer>
+        <p class="display-none">|</p>
+        <p>our.email@gmail.com</p>
+        <p class="display-none">|</p>
+        <p>555-555-5555</p>
+        <p class="display-none">|</p>
+        <p><a href="../html files/FAQ.html">FAQ</a></p>
+        <p class="display-none">|</p>
+        <p><a href="../html files/aboutus.html">About Us</a></p>
+        <p class="display-none">|</p>
+        <p><a href="https://www.facebook.com" target="_blank">Follow Us</a></p>
+        <p class="display-none">|</p>
+    </footer>
+    
     <!-- <script src="/main.js"></script>
-    <script src="/script.js"></script> -->
-</body>
-</html>
+        <script src="/script.js"></script> -->
+    </body>
+    </html>
