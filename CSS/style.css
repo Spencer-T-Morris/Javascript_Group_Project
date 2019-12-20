@@ -127,17 +127,18 @@ h4 {
     font-size: 15px;
     color: white;
     width: 150px;
-    margin: 0px auto;
+    margin: 25px auto;
 }
 
 .description {
     font-weight: 300;
+    padding: 0px 15px;
 }
 
 .price {
     font-weight: 800;
     font-size: 35px;
-    color: white;
+    color: yellowgreen;
 }
 
 .small-text {
@@ -205,7 +206,7 @@ h4 {
 }
 
 .book-section {
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -219,8 +220,26 @@ h4 {
 }
 
 .add-to-cart-button {
-    margin: 0px auto;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    color: green;
+    font-weight: 900;
+    margin: 0px auto 25px auto;
+
 }
+
+.green-text {
+    color: yellowgreen !important;
+    font-weight: bold;
+}
+
+
+
+
+
+
 
 /*media query*/
 
