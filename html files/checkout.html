@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="/Users/samanthastutzman/Dropbox (Personal)/Grand Circus/3 Bootcamp/Javascript_Group_Project/Javascript_Group_Project/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+
+<header> 
+    
+    <img id="mainlogo" src="../Images/logo.jpg">
+    
+    <span class="space-between">
+        <input type="text" placeholder="Search for your next adventure here" id="search-bar">
+        <button id="cart-button" onclick="cartView()"><a href="../html files/checkout.html">checkout</a></button>
+    </span>
+    
+    <nav id="navbar">     
+        <p>|</p>      
+        <li><a href="../html files/begin.html">beginner</a></li>
+        <p>|</p>    
+        <li><a href="../html files/intermediate.html">intermediate</a></li>
+        <p>|</p>    
+        <li><a href="../html files/advanced.html">advance</a></li>
+        <p>|</p>    
+        <li><a href="../html files/career.html">career</a></li>
+        <p>|</p>    
+        <li><a href="../html files/prodev.html">professional development</a></li>
+        <p>|</p>    
+        <li><a href="../html files/fiction.html">fiction</a></li>
+        <p>|</p>    
+    </nav>
+    
+    <div id="main-banner" class="h2">
+        <h2 class="h2"><span class="small-text">your</span>CART</h2>
+    </div>
+    
+</header>
+
+<body>
+    
+    <h2 class="h2-checkout">PLEASE REVIEW YOUR PURCHASE</h2>
+    
+    <div class="checkout-div">
+        <img src="../booklist/images/HFDesignPatterns.jpg" alt="Head First Design Patterns" srcset="" class="book-thumbnail"> 
+        <h3 class="title-checkout">HEAD FIRST DESIGN PATTERNS</h3>
+        <p class="ISBN-checkout">ISBN# 0596007124</p>
+        <p class="author-checkout">Kathy Sierra, Bert Bates, Elisabeth Robson, Eric Freeman</p>
+        <select name="format" id="format-checkout">
+            <option value="soft">Paperback</option>
+            <option value="hard">HardCover</option>
+            <option value="digital">E-Book</option>
+        </select>
+        <select name="quantity" class="grey-dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="remove">Remove</option>
+        </select>
+        <p class="description-checkout">description to add</p>       
+        <p class="price-checkout">$11.99</p> 
+        <button class="add-to-cart-button-checkout">ADD TO CART</button>
+    </div> 
+    
+    <h2 class="h2-checkout">SHIPPING</h2>
+    
+    <div class="checkout-div">
+        <input type="text" placeholder="Street address" class="grey-input-box full-width">
+        <span class="flex-row">
+            <input type="text" placeholder="City" class="grey-input-box">
+            <input type="text" placeholder="State" class="grey-input-box">
+            <input type="text" placeholder="Zip" class="grey-input-box">
+        </span>
+        
+        <span class="shipping">
+            <p class="description">Select Shipping Method:</p> 
+            <select name="quantity" class="grey-dropdown no-margin">
+                <option value="US GROUND">US GROUND</option>
+                <option value="US PRIORITY">US PRIORITY</option>
+                <option value="ONE DAY">ONE DAY</option>
+            </select>
+        </span>
+        
+        <p class="smaller-text">Estimated Delivery: 3-5 Business Days</p>
+        
+    </div>
+    
+    <h2 class="h2-checkout">PAYMENT</h2>
+    
+    <div class="checkout-div center">
+        <p class="align-left">Name on Card</p>
+        <input type="text" placeholder="Street address" class="grey-input-box">
+        <span class="flex-row">
+            <span class="flex">
+                <p class="align-left">Card Number</p>
+                <input type="text" placeholder="0000-0000-0000-0000" class="grey-input-box">
+            </span>
+            <span class="flex">
+                <p class="align-left">Expiration</p>
+                <input type="text" placeholder="00/00" class="grey-input-box">
+            </span>
+            <span class="flex">
+                <p class="align-left">CVV</p>
+                <input type="text" placeholder="0000" class="grey-input-box">
+            </span>
+        </span>
+        
+        <p class="bold">OR</p>
+
+        <button class="pay-cash-button">Pay Cash</button>
+
+    </div>
+    
+    <h2 class="h2-checkout">TOTAL</h2>
+    
+    <div class="checkout-div">
+        <span class="flex center">
+            
+            <h3 class="h3-checkout">SUBTOTAL</h3>
+            <p class="no-margin">$0.00</p>
+            
+            <h3 class="h3-checkout">TAX</h3>
+            <p class="no-margin">$0.00</p>
+            
+            <h3 class="h3-checkout"><span class="yellowgreen-text bold">TOTAL</span></h3>
+            <p class="no-margin"><span class="yellowgreen-text">$0.00</span></p>
+            
+            <button id="checkout-button">CONFIRM & CHECKOUT</button>
+            
+        </span>
+    </div>
+    
+</body>
+
+<footer>
+    <p class="display-none">|</p>
+    <p>our.email@gmail.com</p>
+    <p class="display-none">|</p>
+    <p>555-555-5555</p>
+    <p class="display-none">|</p>
+    <p><a href="../html files/FAQ.html">FAQ</a></p>
+    <p class="display-none">|</p>
+    <p><a href="../html files/aboutus.html">About Us</a></p>
+    <p class="display-none">|</p>
+    <p><a href="https://www.facebook.com" target="_blank">Follow Us</a></p>
+    <p class="display-none">|</p>
+</footer>
+
+<!-- <script src="/main.js"></script>
+    <script src="/script.js"></script> -->
+</body>
+</html>
