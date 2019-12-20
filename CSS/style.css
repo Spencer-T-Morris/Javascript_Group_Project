@@ -20,20 +20,9 @@ nav li {
     font-size: 15px;
 }
 
-footer {
-    border: 1px grey solid;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
 p {
     text-align: center;
 }
-
-
 
 body {
     margin: 0px;
@@ -70,18 +59,6 @@ footer a {
     padding-top: 40px;
 }
 
-footer {
-    border: 1px grey solid;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    color: lightgray !important;
-    /* position: fixed;
-    left: 0;
-    bottom: 0; */
-    width: 100%;
-}
-
 #landingphoto {
     background-image: url(../Images/mainphoto.jpg);
     background-size: cover;
@@ -94,6 +71,14 @@ footer {
     color: white;
 }
 
+#main-banner {
+    background-image: url(../Images/mainbanner.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
 h2 {
     margin: 85px 55px 55px 55px;
     font-size: 45px;
@@ -101,10 +86,37 @@ h2 {
     align-items: center;
 }
 
+.h2 {
+    margin: 0px !important;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.h2-checkout {
+    margin: 20px auto !important;
+    font-size: 20px;
+    color: yellowgreen;
+    padding: 15px;
+    width: 95vw;
+    text-align: center;
+    display: inline;
+}
+
 h3 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 0px;
+}
+
+.h3-checkout {
+    /* margin: 20px auto !important; */
+    font-size: 15px;
+    color: grey;
+    padding: 5px;
+    /* width: 95vw;
+    text-align: center;
+    display: inline; */
 }
 
 h4 {
@@ -199,6 +211,18 @@ h4 {
     top: 5px;
 }
 
+#checkout-button {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 100px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    right: 5px;
+    top: 5px;
+}
+
 .space-between {
     display: flex;
     justify-content: space-between;
@@ -214,6 +238,13 @@ h4 {
     margin: 15px 0px;
 }
 
+.checkout-div {
+    border: lightgray 1px solid;
+    padding: 25px;
+    margin: 0px 5px;
+    display: flex;
+}
+
 .book-thumbnail {
     width: 250px;
     margin: 25px auto;
@@ -227,7 +258,12 @@ h4 {
     color: green;
     font-weight: 900;
     margin: 0px auto 25px auto;
+    
+}
 
+.flex {
+    flex-direction: column;
+    align-items: center;
 }
 
 .green-text {
@@ -235,7 +271,19 @@ h4 {
     font-weight: bold;
 }
 
+.no-margin {
+    margin: 0px;
+}
 
+footer {
+    border: 1px rgb(233, 233, 233) solid;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: lightgray;
+}
 
 
 
