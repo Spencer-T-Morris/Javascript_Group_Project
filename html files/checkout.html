@@ -55,7 +55,7 @@
             <option value="hard">HardCover</option>
             <option value="digital">E-Book</option>
         </select>
-        <select name="quantity" id="quantity-checkout">
+        <select name="quantity" class="grey-dropdown">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -69,31 +69,68 @@
     <h2 class="h2-checkout">SHIPPING</h2>
     
     <div class="checkout-div">
+        <input type="text" placeholder="Street address" class="grey-input-box full-width">
+        <span class="flex-row">
+            <input type="text" placeholder="City" class="grey-input-box">
+            <input type="text" placeholder="State" class="grey-input-box">
+            <input type="text" placeholder="Zip" class="grey-input-box">
+        </span>
+        
+        <span class="shipping">
+            <p class="description">Select Shipping Method:</p> 
+            <select name="quantity" class="grey-dropdown no-margin">
+                <option value="US GROUND">US GROUND</option>
+                <option value="US PRIORITY">US PRIORITY</option>
+                <option value="ONE DAY">ONE DAY</option>
+            </select>
+        </span>
+        
+        <p class="smaller-text">Estimated Delivery: 3-5 Business Days</p>
         
     </div>
     
     <h2 class="h2-checkout">PAYMENT</h2>
     
-    <div class="checkout-div">
+    <div class="checkout-div center">
+        <p class="align-left">Name on Card</p>
+        <input type="text" placeholder="Street address" class="grey-input-box">
+        <span class="flex-row">
+            <span class="flex">
+                <p class="align-left">Card Number</p>
+                <input type="text" placeholder="0000-0000-0000-0000" class="grey-input-box">
+            </span>
+            <span class="flex">
+                <p class="align-left">Expiration</p>
+                <input type="text" placeholder="00/00" class="grey-input-box">
+            </span>
+            <span class="flex">
+                <p class="align-left">CVV</p>
+                <input type="text" placeholder="0000" class="grey-input-box">
+            </span>
+        </span>
         
+        <p class="bold">OR</p>
+
+        <button class="pay-cash-button">Pay Cash</button>
+
     </div>
     
     <h2 class="h2-checkout">TOTAL</h2>
     
     <div class="checkout-div">
-        <span class="flex">
-
+        <span class="flex center">
+            
             <h3 class="h3-checkout">SUBTOTAL</h3>
             <p class="no-margin">$0.00</p>
             
             <h3 class="h3-checkout">TAX</h3>
             <p class="no-margin">$0.00</p>
             
-            <h3 class="h3-checkout"><span class="green-text">TOTAL</span></h3>
-            <p class="no-margin" class="green-text">$0.00</p>
-
+            <h3 class="h3-checkout"><span class="yellowgreen-text bold">TOTAL</span></h3>
+            <p class="no-margin"><span class="yellowgreen-text">$0.00</span></p>
+            
             <button id="checkout-button">CONFIRM & CHECKOUT</button>
-
+            
         </span>
     </div>
     

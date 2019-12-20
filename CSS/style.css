@@ -133,7 +133,7 @@ h4 {
     margin: 0px 0px 20px 0px;
 }
 
-#format {
+.grey-dropdown {
     padding: 55px;
     background-color: rgb(129, 129, 129);
     font-size: 15px;
@@ -158,6 +158,13 @@ h4 {
     font-weight: 300;
 }
 
+.smaller-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: lightgray;
+    margin: 0px;
+}
+
 .email-input {
     width: 90%;
     padding: 12px 20px;
@@ -171,6 +178,15 @@ h4 {
     width: 200px;
     padding: 10px 20px;
     margin: 8px 10px;
+    border-radius: 100px;
+    font-size: 20px;
+    color: green;
+    font-weight: 900;
+}
+
+.pay-cash-button {
+    width: 150px;
+    padding: 10px 20px;
     border-radius: 100px;
     font-size: 20px;
     color: green;
@@ -242,7 +258,6 @@ h4 {
     border: lightgray 1px solid;
     padding: 25px;
     margin: 0px 5px;
-    display: flex;
 }
 
 .book-thumbnail {
@@ -266,8 +281,11 @@ h4 {
     align-items: center;
 }
 
-.green-text {
+.yellowgreen-text {
     color: yellowgreen !important;
+}
+
+.bold {
     font-weight: bold;
 }
 
@@ -284,6 +302,43 @@ footer {
     width: 100%;
     color: lightgray;
 }
+
+.grey-input-box {
+    padding: 5px;
+    margin: 3px 5px;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: rgb(233, 233, 233);
+    /* width: 100%; */
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.shipping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+
 
 
 
