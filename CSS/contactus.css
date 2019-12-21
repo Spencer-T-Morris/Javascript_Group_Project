@@ -64,3 +64,43 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     font-family: 'Courier',sans-serif;
 }
 
+/* form box */
+.form{
+    background-color: rgb(129, 202, 163);
+    width: 50%;
+    padding:30px;
+}
+.form h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Courier',sans-serif;
+    margin-bottom: 50px;
+}
+.form label{
+    font-family: 'Courier',sans-serif;
+    margin-bottom: 20px;
+}
+
+/* email input field */
+.form input{
+    width: calc(100% - 30px );
+    padding: 15px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 2px solid rgb(9, 68, 29);
+    margin-bottom: 20px;
+     font-family: 'Courier',sans-serif;
+}
+/* message area */
+
+.form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    height: 150px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgb(9, 68, 29);
+    margin-bottom: 20px;
+    font-size: 1.2em;
+     font-family: 'Montserat',sans-serif;
+}
