@@ -1,110 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Career Reading</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Career Books to Read</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
 </head>
-<body> 
-   <header class="catergory"><h1>Career Books to read</h1></header>
-   <section>
-    <img src="/booklist/images/softwareDevguide.jpg" alt="Complete Software Developer Guide"> 
-      <h2 class="title">The Complete Software Developer's Career Guide: How to Learn Programming Languages Quickly, Ace Your Programming Interview, and Land Your Software Developer Dream Job</h2>
-      <div class="isbn">ISBN# 0999081411</div>
-      <div class="author">John Sonmez </div>
-       <select name="format" id="format">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">Technical Knowledge Alone Isn't Enough - Increase Your Income by Leveling Up Your Soft Skills
-        Early in his software developer career, John Sonmez discovered that technical knowledge alone isn't enough to break through to the next income level - developers need "soft skills" like the ability to learn new technologies just in time, communicate clearly with management and consulting clients, negotiate a fair hourly rate, and unite teammates and coworkers in working toward a common goal.</p>       
-      <div class="price">$18.99</div> 
-      <button>ADD TO CART</button>
-     </section>   <br><br> 
 
-     <!-- book 2   -->
+<header> 
+  
+  <img id="mainlogo" src="../Images/logo.jpg">
+  
+  <span class="space-between">
+    <input type="text" placeholder="Search for your next adventure here" id="search-bar">
+    <button id="cart-button" onclick="cartView()"><a href="../html files/checkout.html">checkout</a></button>
+  </span>
+  
+  <nav id="navbar">     
+    <p>|</p>      
+    <li><a href="../html files/begin.html">beginner</a></li>
+    <p>|</p>    
+    <li><a href="../html files/intermediate.html">intermediate</a></li>
+    <p>|</p>    
+    <li><a href="../html files/advanced.html">advance</a></li>
+    <p>|</p>    
+    <li><a href="../html files/career.html"><span class="yellowgreen-text">career</span></a></li>
+    <p>|</p>    
+    <li><a href="../html files/prodev.html">professional development</a></li>
+    <p>|</p>    
+    <li><a href="../html files/fiction.html">fiction</a></li>
+    <p>|</p>
+  </nav>
+  
+  <div id="main-banner" class="h2">
+    <h2 class="h2">CAREER<span class="small-text">books</span></h2>
+  </div>
+  
+</header>
 
-     <section>
-      <img src="/booklist/images/womenintech.jpg" alt="Women in tech"> 
-        <h2 class="title">Women in Tech</h2>
-        <div class="isbn">ISBN# </div>
-        <div class="author">Tarah Wheeler</div>
-         <select name="format" id="format">
-          <option value="soft">Paperback</option>
-          <option value="hard">HardCover</option>
-          <option value="digital">E-Book</option>
-        </select>
-        <p class="description"> Written by a female startup CEO and featuring a host of other successful contributors, this book will help dismantle the unconscious social bias against women in the tech industry. Readers will learn:
-
-          The secrets of salary negotiation
-          The best format for tech resumes
-           How to ace a tech interview
-            The perks of both contracting (W-9) and salaried full-time work
-             The secrets of mentorship
-            How to start your own company</p>       
-        <div class="price">$19.99</div> 
-        <button>ADD TO CART</button>
-       </section>   <br><br> 
-
-       <!-- book 3 -->
-       <section>
-        <img src="/booklist/images/crackingcode.jpg" alt="cracking the code"> 
-          <h2 class="title">Cracking the Coding Interview: 150 Programming Questions and Solutions 5th Edition</h2>
-          <div class="isbn">ISBN# 098478280X</div>
-          <div class="author">Gayle Laakmann McDowell</div>
-           <select name="format" id="format">
-            <option value="soft">Paperback</option>
-            <option value="hard">HardCover</option>
-            <option value="digital">E-Book</option>
-          </select>
-          <p class="description">The full list of topics are as follows:
-
-            The Interview Process <br>
-            Behind the Scenes <br>
-            Special Situations <br>
-            Before the Interview <br>
-            Behavioral Preparation <br>
-            Technical Questions (+ 5 Algorithm Approaches)</p>       
-          <div class="price">$17.99</div> 
-          <button>ADD TO CART</button>
-         </section>   <br><br> 
-
-         <!-- book 4 -->
-         <section>
-          <img src="/booklist/images/devrelations.jpg" alt="Development Relations"> 
-            <h2 class="title">The Business Value of Developer Relations</h2>
-            <div class="isbn">ISBN# 978-1-4842-3748-9</div>
-            <div class="author">Mary Thengvall  </div>
-             <select name="format" id="format">
-              <option value="soft">Paperback</option>
-              <option value="hard">HardCover</option>
-              <option value="digital">E-Book</option>
-            </select>
-            <p class="description">Discover the true value of Developer Relations as you learn to build and maintain positive relationships with your developer community. Use the principles laid out in this book to walk through your company goals and discover how you can formulate a plan tailored to your specific needs.</p>       
-            <div class="price">$26.99</div> 
-            <button>ADD TO CART</button>
-           </section>   <br><br> 
-
-           <!-- book 5 -->
-           <section>
-            <img src="/booklist/images/AgileDev.jpg" alt=" Agile Sofware Development"> 
-              <h2 class="title">Agile Software Development: The Cooperative Game, Second Edition</h2>
-              <div class="isbn">ISBN# 0321482751</div>
-              <div class="author">Alistair Cockburn</div>
-               <select name="format" id="format">
-                <option value="soft">Paperback</option>
-                <option value="hard">HardCover</option>
-                <option value="digital">E-Book</option>
-              </select>
-              <p class="description">The agile model of software development has taken the world by storm. Now, in Agile Software Development, Second Edition, one of agile’s leading pioneers updates his Jolt Productivity award-winning book to reflect all that’s been learned about agile development since its original introduction.
-                Next, he systematically illuminates the agile model, shows how it has evolved, and answers the questions developers and project managers ask most often.</p>       
-              <div class="price">$34.99</div> 
-              <button>ADD TO CART</button>
-             </section>   <br><br> 
-
-<footer></footer>
+<body>  
+  
+  
+  
+  <!-- book 1 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/softwareDevguide.jpg" alt="Complete Software Developer Guide" srcset="" class="book-thumbnail"> 
+    <h3 class="title">THE COMPLETE SOFTWARE DEVELOPER'S CAREER GUIDE: HOW TO LEARN PROGRAMMING LANGUAGES QUICKLY, ACE YOUR PROGRAMMING INTERVIEW, AND LAND YOUR SOFTWARE DEVELOPER DREAM JOB</h3>
+    <p class="ISBN">ISBN# 0999081411</p>
+    <p class="author">John Sonmez</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">Technical Knowledge Alone Isn't Enough - Increase Your Income by Leveling Up Your Soft Skills
+      Early in his software developer career, John Sonmez discovered that technical knowledge alone isn't enough to break through to the next income level - developers need "soft skills" like the ability to learn new technologies just in time, communicate clearly with management and consulting clients, negotiate a fair hourly rate, and unite teammates and coworkers in working toward a common goal.
+    </p>       
+    <p class="price">$18.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
+  
+  
+  <!-- book 2 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/womenintech.jpg" alt="Women in tech" srcset="" class="book-thumbnail"> 
+    <h3 class="title">WOMEN IN TECH</h3>
+    <p class="ISBN">ISBN# </p>
+    <p class="author">Tarah Wheeler</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description"> Written by a female startup CEO and featuring a host of other successful contributors, this book will help dismantle the unconscious social bias against women in the tech industry. Readers will learn:
+      
+      The secrets of salary negotiation
+      The best format for tech resumes
+      How to ace a tech interview
+      The perks of both contracting (W-9) and salaried full-time work
+      The secrets of mentorship
+      How to start your own company
+    </p>       
+    <p class="price">$19.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
+  
+  
+  <!-- book 3 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/crackingcode.jpg" alt="Cracking the Coding Interview" srcset="" class="book-thumbnail"> 
+    <h3 class="title">CRACKING THE CODING INTERVIEW: 150 PROGRAMMING QUESTIONS AND SOLUTIONS 5TH EDITION</h3>
+    <p class="ISBN">ISBN# 098478280X</p>
+    <p class="author">Gayle Laakmann McDowell</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">The full list of topics are as follows:<br>
+      The Interview Process<br>
+      Behind the Scenes<br>
+      Special Situations<br>
+      Before the Interview<br>
+      Behavioral Preparation<br>
+      Technical Questions (+ 5 Algorithm Approaches)
+    </p>       
+    <p class="price">$17.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
+  
+  
+  <!-- book 4 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/devrelations.jpg" alt="The Business Value of Developer Relations" srcset="" class="book-thumbnail">
+    <h3 class="title">THE BUSINESS VALUE OF DEVELOPER RELATIONS</h3>
+    <p class="ISBN">ISBN# 978-1-4842-3748-9</p>
+    <p class="author">Mary Thengvall</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">Discover the true value of Developer Relations as you learn to build and maintain positive relationships with your developer community. Use the principles laid out in this book to walk through your company goals and discover how you can formulate a plan tailored to your specific needs.</p>       
+    <p class="price">$26.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
+  
+  
+  <!-- book 5 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/AgileDev.jpg" alt="Agile Software Development: The Cooperative Game, Second Edition" srcset="" class="book-thumbnail">
+    <h3 class="title">AGILE SOFTWARE DEVELOPMENT: THE COOPERATIVE GAME, SECOND EDITION</h3>
+    <p class="ISBN">ISBN# 0321482751</p>
+    <p class="author">Alistair Cockburn</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">The agile model of software development has taken the world by storm. Now, in Agile Software Development, Second Edition, one of agile’s leading pioneers updates his Jolt Productivity award-winning book to reflect all that’s been learned about agile development since its original introduction.
+      Next, he systematically illuminates the agile model, shows how it has evolved, and answers the questions developers and project managers ask most often.
+    </p>       
+    <p class="price">$34.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
 </body>
+
+
+<footer>
+  <p class="display-none">|</p>
+  <p>our.email@gmail.com</p>
+  <p class="display-none">|</p>
+  <p>555-555-5555</p>
+  <p class="display-none">|</p>
+  <p><a href="../html files/FAQ.html">FAQ</a></p>
+  <p class="display-none">|</p>
+  <p><a href="../html files/aboutus.html">About Us</a></p>
+  <p class="display-none">|</p>
+  <p><a href="https://www.facebook.com" target="_blank">Follow Us</a></p>
+  <p class="display-none">|</p>
+</footer>
+
+
+<!-- <script src="/main.js"></script> -->
+<!-- <script src="/script.js"></script> -->
 </html>
