@@ -1,30 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Courier+Prime:regular,italic,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
 *{
-    margin:0;
-    outline:0;
-    padding:0;
-
+    margin: 0;
+    outline: 0;
+    padding: 0;
 }
-/* this is just a placeholder image for now  */
-/* image is not showing up */
 body{
-    background-image: url(/aboutUsImages/group.jpg); 
+    background-image: url(../image/background.jpg);
     background-size: cover;
-    background:no-repeat;
+    background-repeat: no-repeat;
 }
-
-/* could not remember how to do the margin shortcut, bgColor is also just placeholder  */
-/* not sure about the gradient, playing around with it but running out of time  */
 .filter{
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
-    background: rgb(111, 224, 139);
-    background: -moz-linear-gradient(160deg, rgba(244, 247, 244, 0.3) 0%, rgba(33, 117, 8, 0.3) 100%);
-background: -webkit-linear-gradient(160deg, rgba(244, 247, 244, 0.3) 0%, rgba(33, 117, 8, 0.3) 100%);
-background: linear-gradient(160deg, rgba(9, 172, 9, 0.3) 0%, rgba(33, 117, 8, 0.3) 100%);
+    background: rgb(135, 223, 113);
+    background: -moz-linear-gradient(160deg, rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
+    background: -webkit-linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
+    background: linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
 }
 .container{
@@ -32,85 +26,81 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     height: 500px;
     position: absolute;
     left: 50%;
-   right: 50%;
-   transform: translate(-50%,-50%);
-   display:flex;
-
-   box-shadow: 0 2px 15px rgba(33, 117, 8, 0.3);
-   border-radius:15px ;
-   overflow: hidden;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    
+    box-shadow: 0 2px 10px rgba(11, 102, 11, 0.7);
+    border-radius: 15px;
+    overflow: hidden;
+   
 }
+/* subscribe to our news letter box/ contact box */
+
 .description{
     width: 50%;
-    padding: 50px;
+    padding: 30px;
 
-    background: rgb(44, 90, 50);
-background: -moz-linear-gradient(160deg, rgb(25, 110, 68) 0%, rgb(126, 148, 137) 100%);
-background: -webkit-linear-gradient(160deg, rgba(25, 110, 68) 0%, rgba(126, 148, 137) 100%);
-background: linear-gradient(160deg, rgba(25, 110, 68) 0%, rgba(126, 148, 137) 100%);
+    background: rgb(8, 19, 9);
+background: -moz-linear-gradient(160deg, rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
+background: -webkit-linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
+background: linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
 }
 .description h1{
     text-align: center;
-    color: #fafafa;
+    color: #1a3825;
         margin-bottom: 50px;
     font-size: 1.5em;
     text-transform: uppercase;
-    font-family: 'Courier',sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 .description p{
    
-    color: #fafafa;
-    font-family: 'Courier',sans-serif;
+    color: #06160a;
+    font-family: 'Open Sans',sans-serif;
 }
 
-/* form box */
+/* form styling  */
 .form{
-    background-color: rgb(129, 202, 163);
+    background-color: rgb(96, 153, 89);
     width: 50%;
     padding:30px;
 }
 .form h1{
+    color: #1a3825;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Courier',sans-serif;
+    font-family: 'Roboto',sans-serif;
     margin-bottom: 50px;
 }
 .form label{
-    font-family: 'Courier',sans-serif;
+    font-family: 'Montserat',sans-serif;
     margin-bottom: 20px;
 }
-
-/* email input field */
 .form input{
-    width: calc(100% - 30px );
-    padding: 15px 20px;
+    width: calc(100% - 20px );
+    padding: 5px 10px;
     font-size: 1.2em;
     border: none;
-    border-bottom: 2px solid rgb(9, 68, 29);
+    border-bottom: 1px solid rgb(83,19,166);
     margin-bottom: 20px;
-     font-family: 'Courier',sans-serif;
+     font-family: 'Montserat',sans-serif;
 }
-/* message area */
-
 .form textarea{
     width: calc(100% - 20px);
     padding: 10px;
     height: 150px;
     resize: none;
     border: none;
-    border-bottom: 1px solid rgb(9, 68, 29);
+    border-bottom: 1px solid rgb(83,19,166);
     margin-bottom: 20px;
     font-size: 1.2em;
-     font-family: 'Courier',sans-serif;
+     font-family: 'Montserat',sans-serif;
 }
-
 ::placeholder{
-    color: rgb(52, 104, 76);
+    color: rgb(26, 36, 26);
 }
-
-/* form submit button  */
-
 .form button{
     cursor: pointer;
      width: 100% ;
@@ -120,14 +110,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     border: none;
     border-radius: 15px;
     font-weight: bold;
-      background: rgb(52, 148, 72);
-background: -moz-linear-gradient(160deg, rgb(25, 110, 68) 0%, rgb(126, 148, 137) 100%);
-background: -webkit-linear-gradient(160deg, rgb(25, 110, 68) 0%, rgb(126, 148, 137) 100%);
-background: linear-gradient(160deg, rgb(25, 110, 68) 0%, rgb(126, 148, 137) 100%);
+    box-shadow: 0 2px 10px rgba(11, 102, 11, 0.7);
+      background: rgb(4, 49, 7);
+      background: -moz-linear-gradient(160deg, rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
+      background: -webkit-linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
+      background: linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
     transition: all .4s;
 }
 .form button:hover{
-    opacity: .7;
+      opacity: .5;
 
 }
