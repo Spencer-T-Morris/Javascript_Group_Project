@@ -129,8 +129,18 @@ h4 {
     font-weight: lighter;
 }
 
+.ISBN-checkout {
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+
 .author {
     margin: 0px 0px 20px 0px;
+}
+
+.lighter {
+    font-weight: lighter;
 }
 
 .grey-dropdown {
@@ -151,6 +161,13 @@ h4 {
     font-weight: 800;
     font-size: 35px;
     color: yellowgreen;
+}
+
+.price-checkout {
+    font-weight: 800;
+    font-size: 25px;
+    color: yellowgreen;
+    margin: 0px 0px 20px 0px;
 }
 
 .small-text {
@@ -198,6 +215,11 @@ h4 {
     font-weight: 900;
 }
 
+.pay-cash-button:hover {
+    background-color: green;
+    color: white;
+}
+
 .newsletter-div {
     margin-top: 50px
 }
@@ -232,7 +254,7 @@ h4 {
     top: 5px;
 }
 
-#cart-button:hover {
+#cart-button:hover, #checkout-button:hover {
     background-color: yellowgreen;
 }
 
@@ -267,11 +289,24 @@ h4 {
     border: lightgray 1px solid;
     padding: 25px;
     margin: 0px 5px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.checkout-div-book {
+    flex-direction: row;
 }
 
 .book-thumbnail {
     width: 250px;
     margin: 25px auto;
+}
+
+.book-thumbnail-checkout {
+    width: 150px;
+    margin: 35px 10px 10px 10px;
+    display: inline-block;
 }
 
 .add-to-cart-button {
@@ -298,10 +333,6 @@ h4 {
     font-weight: bold;
 }
 
-.no-margin {
-    margin: 0px;
-}
-
 footer {
     border: 1px rgb(233, 233, 233) solid;
     width: 100vw;
@@ -313,17 +344,18 @@ footer {
 }
 
 .grey-input-box {
-    padding: 5px;
+    padding: 5px 0px;
     margin: 3px 5px;
     font-size: 15px;
     border-radius: 3px;
     background-color: rgb(233, 233, 233);
-    /* width: 100%; */
+    width: 100%;
 }
 
 .flex-row {
     display: flex;
     flex-direction: row;
+    justify-content: baseline;
 }
 
 .shipping {
@@ -343,9 +375,34 @@ footer {
 }
 
 .full-width {
-    width: 100%;
+    width: 98%;
 }
 
+.margin-15 {
+    margin: 0px 15px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.format-checkout {
+    padding: 0px;
+    margin: 0px 0px 10px 10px;
+    max-width: 100px;
+}
 
 
 

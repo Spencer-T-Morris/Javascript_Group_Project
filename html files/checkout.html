@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Checkout</title>
-    <link rel="stylesheet" href="/Users/samanthastutzman/Dropbox (Personal)/Grand Circus/3 Bootcamp/Javascript_Group_Project/Javascript_Group_Project/CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
 </head>
@@ -45,30 +45,45 @@
     
     <h2 class="h2-checkout">PLEASE REVIEW YOUR PURCHASE</h2>
     
-    <div class="checkout-div">
-        <img src="../booklist/images/HFDesignPatterns.jpg" alt="Head First Design Patterns" srcset="" class="book-thumbnail"> 
-        <h3 class="title-checkout">HEAD FIRST DESIGN PATTERNS</h3>
-        <p class="ISBN-checkout">ISBN# 0596007124</p>
-        <p class="author-checkout">Kathy Sierra, Bert Bates, Elisabeth Robson, Eric Freeman</p>
-        <select name="format" id="format-checkout">
-            <option value="soft">Paperback</option>
-            <option value="hard">HardCover</option>
-            <option value="digital">E-Book</option>
-        </select>
-        <select name="quantity" class="grey-dropdown">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="remove">Remove</option>
-        </select>
-        <p class="description-checkout">description to add</p>       
-        <p class="price-checkout">$11.99</p> 
-        <button class="add-to-cart-button-checkout">ADD TO CART</button>
+    <div class="checkout-div flex-row flex-start">
+        
+        <img src="../booklist/images/HFDesignPatterns.jpg" alt="Head First Design Patterns" srcset="" class="book-thumbnail-checkout"> 
+
+        <div>
+            <div class="flex-row">
+                <h3 class="title-checkout left-align">HEAD FIRST DESIGN PATTERNS
+                <p class="h3-checkout inline lighter">ISBN# 0596007124</p>
+            </h3>
+            </div>
+            
+            <p class="author-checkout left-align">Kathy Sierra, Bert Bates, Elisabeth Robson, Eric Freeman</p>
+            
+            <div class="flex-row">
+                <p class="lighter left-align no-margin">Update format:</p>
+                <select name="format" class="grey-dropdown format-checkout no-margin">
+                    <option value="soft">Paperback</option>
+                    <option value="hard">HardCover</option>
+                    <option value="digital">E-Book</option>
+                </select>
+            </div>
+            
+            <div class="flex-row">
+                <p class="lighter left-align no-margin">Update quantity:</p>
+                <select name="quantity" class="grey-dropdown format-checkout no-margin">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="remove">Remove</option>
+                </select>
+            </div>
+            
+            <p class="price-checkout left-align">$11.99</p> 
+        </div>
     </div> 
     
     <h2 class="h2-checkout">SHIPPING</h2>
     
-    <div class="checkout-div">
+    <div class="checkout-div flex">
         <input type="text" placeholder="Street address" class="grey-input-box full-width">
         <span class="flex-row">
             <input type="text" placeholder="City" class="grey-input-box">
@@ -93,31 +108,31 @@
     
     <div class="checkout-div center">
         <p class="align-left">Name on Card</p>
-        <input type="text" placeholder="Street address" class="grey-input-box">
+        <input type="text" placeholder="John Doe" class="grey-input-box full-width">
         <span class="flex-row">
             <span class="flex">
                 <p class="align-left">Card Number</p>
-                <input type="text" placeholder="0000-0000-0000-0000" class="grey-input-box">
+                <input type="text" placeholder="0000-0000-0000-0000" class="grey-input-box max-width no-margin">
             </span>
-            <span class="flex">
+            <span class="flex margin-15">
                 <p class="align-left">Expiration</p>
-                <input type="text" placeholder="00/00" class="grey-input-box">
+                <input type="text" placeholder="00/00" class="grey-input-box no-margin">
             </span>
             <span class="flex">
                 <p class="align-left">CVV</p>
-                <input type="text" placeholder="0000" class="grey-input-box">
+                <input type="text" placeholder="0000" class="grey-input-box no-margin">
             </span>
         </span>
         
         <p class="bold">OR</p>
-
+        
         <button class="pay-cash-button">Pay Cash</button>
-
+        
     </div>
     
     <h2 class="h2-checkout">TOTAL</h2>
     
-    <div class="checkout-div">
+    <div class="checkout-div flex">
         <span class="flex center">
             
             <h3 class="h3-checkout">SUBTOTAL</h3>

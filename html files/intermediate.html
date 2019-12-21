@@ -1,100 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Intermediate Reading</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Intermediate Books to Read</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
 </head>
-<body> 
-   <header class="catergory"><h1>Intermediate Books to read</h1></header>
-   <section>
-    <img src="/booklist/images/YDKJS.GIF" alt="You don't know JS"> 
-      <h2 class="title">You Don't Know Js (6 book series)</h2>
-      <div class="isbn">ISBN# 9781491924471</div>
-      <div class="author">Kyle Simpson</div>
-       <select name="format" id="format">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">a. You Don't Know JS: this & Object Prototypes  
-b. You Don't Know JS: ES6 & Beyond  <br>
-c. You Don't Know JS: Up & Going  <br>
-d. You Don't Know JS: Async & Performance  <br>
-e. You Don't Know JS: Scope & Closures  <br>
-f. You Don't Know JS: Types & Grammar <br>
-No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skillset</p>       
-      <div class="price">$39.99</div> 
-      <button>ADD TO CART</button>
-     </section> <br><br>  
-   <!-- book 2 -->
-   <section>
-    <img src="/booklist/images/leanandagile.jpg" alt=""> 
-      <h2 class="title">Lean and Agile Project Management</h2>
-      <div class="isbn">ISBN# 9781498739160</div>
-      <div class="author">Terra Vanzant Stern, PhD</div>
-       <select name="format" id="format">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">When project managers are faced with budget cuts and fewer resources, waste elimination becomes a priority in maintaining effectiveness. This does not mean shortening or abandoning traditional project cycles, though.</p>       
-      <div class="price">$24.99</div> 
-      <button>ADD TO CART</button>
-     </section> <br><br>
 
-<!-- Book 3 -->
-<section>
-  <img src="/booklist/images/jsandjquery.jpg" alt=""> 
-    <h2 class="title">Javascript & Jquery-Interactive front-end web development</h2>
-    <div class="isbn">ISBN# 9781118871652</div>
-    <div class="author">Jon Duckett</div>
-     <select name="format" id="format">
+<header> 
+  
+  <img id="mainlogo" src="../Images/logo.jpg">
+  
+  <span class="space-between">
+    <input type="text" placeholder="Search for your next adventure here" id="search-bar">
+    <button id="cart-button" onclick="cartView()"><a href="../html files/checkout.html">checkout</a></button>
+  </span>
+  
+  <nav id="navbar">     
+    <p>|</p>      
+    <li><a href="../html files/begin.html">beginner</a></li>
+    <p>|</p>    
+    <li><a href="../html files/intermediate.html"><span class="yellowgreen-text">intermediate</span></a></li>
+    <p>|</p>    
+    <li><a href="../html files/advanced.html">advance</a></li>
+    <p>|</p>    
+    <li><a href="../html files/career.html">career</a></li>
+    <p>|</p>    
+    <li><a href="../html files/prodev.html">professional development</a></li>
+    <p>|</p>    
+    <li><a href="../html files/fiction.html">fiction</a></li>
+    <p>|</p>    
+  </nav>
+  
+  <div id="main-banner" class="h2">
+    <h2 class="h2">INTERMEDIATE<span class="small-text">books</span></h2>
+  </div>
+  
+</header>
+
+<body>  
+  
+  
+  
+  <!-- book 1 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/YDKJS.GIF" alt="You don't know JS" srcset="" class="book-thumbnail"> 
+    <h3 class="title">YOU DON'T KNOW JS (6 BOOK SERIES)</h3>
+    <p class="ISBN">ISBN# 9781491924471</p>
+    <p class="author">Kyle Simpson</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">a. You Don't Know JS: this & Object Prototypes<br>  
+      b. You Don't Know JS: ES6 & Beyond<br>
+      c. You Don't Know JS: Up & Going<br>
+      d. You Don't Know JS: Async & Performance<br>
+      e. You Don't Know JS: Scope & Closures<br>
+      f. You Don't Know JS: Types & Grammar<br><br>
+      No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skillset
+    </p>       
+    <p class="price">$39.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
+  
+  
+  <!-- book 2 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/leanandagile.jpg" alt="Lean and Agile Project Management" srcset="" class="book-thumbnail"> 
+    <h3 class="title">LEAN AND AGILE PROJECT MANAGMENT</h3>
+    <p class="ISBN">ISBN# 9781498739160</p>
+    <p class="author">Terra Vanzant Stern, PhD</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">When project managers are faced with budget cuts and fewer resources, waste elimination becomes a priority in maintaining effectiveness. This does not mean shortening or abandoning traditional project cycles, though.</p>       
+    <p class="price">$24.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
+  
+  
+  <!-- Book 3 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/jsandjquery.jpg" alt="Javascript & Jquery-Interactive front-end web development" srcset="" class="book-thumbnail">  
+    <h3 class="title">Javascript & Jquery-Interactive front-end web development</h3>
+    <p class="ISBN">ISBN# 9781118871652</p>
+    <p class="author">Jon Duckett</p>
+    <select name="format" class="grey-dropdown">
       <option value="soft">Paperback</option>
       <option value="hard">HardCover</option>
       <option value="digital">E-Book</option>
     </select>
     <p class="description">This is not your average programming book.
-      We understand that all kinds of people build websites these days (and that they don’t all have a degree in computer science)</p>       
-    <div class="price">$26.99</div> 
-    <button>ADD TO CART</button> <br><br>
-   </section> 
-
-
-<!-- Book 4 -->
-
-<section>
-    <img src="/booklist/images/htmlcss.jpg" alt=""> 
-      <h2 class="title">HTML and CSS: Design and Build Websites</h2>
-      <div class="isbn">ISBN# 1118008189</div>
-      <div class="author">Jon Duckett</div>
-       <select name="format" id="format">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description"></p>       
-      <div class="price">$26.99</div> 
-      <button>ADD TO CART</button>
-     </section> <br><br>
-
-<!-- Book 5 -->
-<section>
-  <img src="/booklist/images/JSgoodparts.jpg" alt=""> 
-    <h2 class="title">Javascript the good parts</h2>
-    <div class="isbn">ISBN# 978-0596517748</div>
-    <div class="author">Douglas Crockford </div>
-     <select name="format" id="format">
+      We understand that all kinds of people build websites these days (and that they don’t all have a degree in computer science)
+    </p>
+    <p class="price">$26.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div> 
+  
+  
+  
+  <!-- Book 4 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/htmlcss.jpg" alt="HTML and CSS: Design and Build Websites" srcset="" class="book-thumbnail">   
+    <h3 class="title">HTML and CSS: Design and Build Websites</h3>
+    <p class="ISBN">ISBN# 1118008189</p>
+    <p class="author">Jon Duckett</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">DESCRIPTION TO ADD</p>       
+    <p class="price">$26.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
+  
+  
+  <!-- Book 5 -->
+  
+  <div class="book-section">
+    <img src="../booklist/images/JSgoodparts.jpg" alt="" srcset="" class="book-thumbnail">   
+    <h3 class="title">Javascript the good parts</h3>
+    <p class="ISBN">ISBN# 978-0596517748</p>
+    <p class="author">Douglas Crockford</p>
+    <select name="format" class="grey-dropdown">
       <option value="soft">Paperback</option>
       <option value="hard">HardCover</option>
       <option value="digital">E-Book</option>
     </select>
     <p class="description">Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code.</p>       
-    <div class="price">$17.99</div> 
-    <button>ADD TO CART</button>
-   </section>
-<footer></footer>
-</body>
-</html>
+    <p class="price">$17.99</p> 
+    <button class="add-to-cart-button">ADD TO CART</button>
+  </div>
+  
+  
+  <footer>
+    <p class="display-none">|</p>
+    <p>our.email@gmail.com</p>
+    <p class="display-none">|</p>
+    <p>555-555-5555</p>
+    <p class="display-none">|</p>
+    <p><a href="../html files/FAQ.html">FAQ</a></p>
+    <p class="display-none">|</p>
+    <p><a href="../html files/aboutus.html">About Us</a></p>
+    <p class="display-none">|</p>
+    <p><a href="https://www.facebook.com" target="_blank">Follow Us</a></p>
+    <p class="display-none">|</p>
+  </footer>
+  
+  
+  <!-- <script src="/main.js"></script>
+    <script src="/script.js"></script> -->
+  </body>
+  </html>
