@@ -127,3 +127,7 @@ background: linear-gradient(160deg, rgb(25, 110, 68) 0%, rgb(126, 148, 137) 100%
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
     transition: all .4s;
 }
+.form button:hover{
+    opacity: .7;
+
+}
