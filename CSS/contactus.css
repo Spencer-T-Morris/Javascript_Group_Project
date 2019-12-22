@@ -26,7 +26,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     height: 500px;
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 45%;
     transform: translate(-50%,-50%);
     display: flex;
     
@@ -44,7 +44,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
 background: -moz-linear-gradient(160deg, rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
 background: -webkit-linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
 background: linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
+/* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1); */
 }
 .description h1{
     text-align: center;
@@ -61,23 +61,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
 }
 
 /* form styling  */
-.cu-form{
+
+#cu-form{
     background-color: rgb(96, 153, 89);
     width: 50%;
     padding:30px;
 }
-.cu-form h1{
+#cu-form h1{
     color: #1a3825;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Roboto',sans-serif;
     margin-bottom: 50px;
 }
-.cu-form label{
+#cu-form label{
     font-family: 'Montserat',sans-serif;
     margin-bottom: 20px;
 }
-.cu-form input{
+#cu-form input{
     width: calc(100% - 20px );
     padding: 5px 10px;
     font-size: 1.2em;
@@ -86,7 +87,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     margin-bottom: 20px;
      font-family: 'Montserat',sans-serif;
 }
-.cu-form textarea{
+#cu-form textarea{
     width: calc(100% - 20px);
     padding: 10px;
     height: 150px;
@@ -100,7 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
 ::placeholder{
     color: rgb(26, 36, 26);
 }
-.cu-form button{
+#cu-form button{
     cursor: pointer;
      width: 100% ;
     padding: 10px 20px;
@@ -114,10 +115,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
       background: -moz-linear-gradient(160deg, rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
       background: -webkit-linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
       background: linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
+/* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1); */
     transition: all .4s;
 }
-.cu-form button:hover{
-      opacity: .5;
+#cu-form button:hover{
+      opacity: .8;
 
 }
