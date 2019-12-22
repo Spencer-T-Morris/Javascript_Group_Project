@@ -9,7 +9,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.filter{
+/* .filter{
     position: absolute;
     left: 0;
     right: 0;
@@ -20,8 +20,8 @@ body{
     background: -webkit-linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
     background: linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 29, 0.3) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
-}
-.container{
+} */
+#container{
     width: 50%;
     height: 500px;
     position: absolute;
@@ -62,23 +62,23 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
 }
 
 /* form styling  */
-.form{
+.cu-form{
     background-color: rgb(96, 153, 89);
     width: 50%;
     padding:30px;
 }
-.form h1{
+.cu-form h1{
     color: #1a3825;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Roboto',sans-serif;
     margin-bottom: 50px;
 }
-.form label{
+.cu-form label{
     font-family: 'Montserat',sans-serif;
     margin-bottom: 20px;
 }
-.form input{
+.cu-form input{
     width: calc(100% - 20px );
     padding: 5px 10px;
     font-size: 1.2em;
@@ -87,7 +87,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     margin-bottom: 20px;
      font-family: 'Montserat',sans-serif;
 }
-.form textarea{
+.cu-form textarea{
     width: calc(100% - 20px);
     padding: 10px;
     height: 150px;
@@ -101,7 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
 ::placeholder{
     color: rgb(26, 36, 26);
 }
-.form button{
+.cu-form button{
     cursor: pointer;
      width: 100% ;
     padding: 10px 20px;
@@ -118,7 +118,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endColorstr="#f748ff",GradientType=1);
     transition: all .4s;
 }
-.form button:hover{
+.cu-form button:hover{
       opacity: .5;
 
 }
