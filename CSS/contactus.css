@@ -26,7 +26,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     height: 500px;
     position: absolute;
     left: 50%;
-    top: 45%;
+    top: 55%;
     transform: translate(-50%,-50%);
     display: flex;
     
@@ -48,16 +48,20 @@ background: linear-gradient(160deg,   rgba(19, 24, 17, 0.3) 0%, rgba(128, 214, 2
 }
 .description h1{
     text-align: center;
-    color: #ebf3ee;
+    color: #6ce029;
         margin-bottom: 50px;
-    font-size: 1.5em;
+    font-size: 2em;
     text-transform: uppercase;
     font-family: 'Roboto',sans-serif;
 }
 .description p{
    
-    color: #06160a;
+    color: #e5f1e8;
     font-family: 'Open Sans',sans-serif;
+    font-size: 1.5em;
+   text-align: center;
+    font-weight: 500;
+
 }
 
 /* form styling  */
