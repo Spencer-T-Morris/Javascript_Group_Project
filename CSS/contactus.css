@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    background-image: url(../image/background.jpg);
+    background-image: url(/Images/mainphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -26,7 +26,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     height: 500px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%,-50%);
     display: flex;
     
@@ -49,7 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
 }
 .description h1{
     text-align: center;
-    color: #1a3825;
+    color: #ebf3ee;
         margin-bottom: 50px;
     font-size: 1.5em;
     text-transform: uppercase;
