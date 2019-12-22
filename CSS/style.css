@@ -519,7 +519,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5313a6",endCo
     
     footer a {
         text-decoration: none;
-        color: lightgray;
+        color: rgb(77, 74, 74);
     }
     
     #navbar {
