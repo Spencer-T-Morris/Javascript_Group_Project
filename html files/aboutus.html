@@ -3,125 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
-    <!-- <script src="https://use.fontawesome.com/48e9a2e766.js"></script> -->    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="stylesheet" href="/CSS/aboutus.css">
-    <title>About US</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <section>
-         <!-- Ryan -->
-        <div class="container">
-            <h1 class="heading">Team New POS on the Block </h1>
-                <div class="card-wrapper">
-                    <div class="profile-card">
-                        <img class="card-image" src="/aboutUsImages/GCAHBC logo.jpg" alt="Grand Circus logo"  >
-                        <img class="profile-image" src="/aboutUsImages/Ryan1.jpg" alt="Ryan DeVree image"  >
-                        <h1>Ryan DeVree</h1>
-                        <p class="job-title">PostMan</p>
-                        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam neque repellat alias consectetur architecto inventore ipsam totam illo velit aut?</p>
-                        <a href="#" class="btn">Read My Book</a>
-                        <ul class="social-media">
-                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>                                                    
-                        </ul>                        
-                    </div>
-                   <!-- sam --> 
-                   <h1 class="heading">Team New POS on the Block </h1>
-                   <div class="card-wrapper">
-                       <div class="profile-card">
-                           <img class="card-image" src="/aboutUsImages/GCAHBC logo.jpg" alt="Grand Circus logo"  >
-                           <img class="profile-image" src="/aboutUsImages/Sam1.jpg" alt="Samantha Stutzman image"  >
-                           <h1>Samantha Stutzman</h1>
-                           <p class="job-title">Medical </p>
-                           <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam neque repellat alias consectetur architecto inventore ipsam totam illo velit aut?</p>
-                           <a href="#" class="btn">Read My Book</a>
-                           <ul class="social-media">
-                               <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                               <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                               <li><a href="#"><i class="fab fa-linkedin"></i></a></li>                                                    
-                           </ul>                        
-                       </div>
-                       <!-- Spencer -->
-                       <h1 class="heading">Team New POS on the Block </h1>
-                       <div class="card-wrapper">
-                           <div class="profile-card">
-                               <img class="card-image" src="/aboutUsImages/GCAHBC logo.jpg" alt="Grand Circus logo"  >
-                               <img class="profile-image" src="/aboutUsImages/spencer1.jpg" alt="Spencer Morris image"  >
-                               <h1>Spencer Morris</h1>
-                               <p class="job-title">Resturant Consultant </p>
-                               <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam neque repellat alias consectetur architecto inventore ipsam totam illo velit aut?</p>
-                               <a href="#" class="btn">Read My Book</a>
-                               <ul class="social-media">
-                                   <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                                   <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                                   <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                   <li><a href="#"><i class="fab fa-linkedin"></i></a></li>                                                    
-                               </ul>                        
-                           </div>
-                           
-                           <!-- Ramona -->
-                           <h1 class="heading">Team New POS on the Block </h1>
-                           <div class="card-wrapper">
-                               <div class="profile-card">
-                                   <img class="card-image" src="/aboutUsImages/GCAHBC logo.jpg" alt="Grand Circus logo"  >
-                                   <img class="profile-image" src="/aboutUsImages/Mona1.jpg" alt="Ramona Saintandre image"  >
-                                   <h1>Ramona Saintandre</h1>
-                                   <p class="job-title">Helpdesk Cordinator </p>
-                                   <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam neque repellat alias consectetur architecto inventore ipsam totam illo velit aut?</p>
-                                   <a href="#" class="btn">Read My Book</a>
-                                   <ul class="social-media">
-                                       <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                                       <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                                       <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                       <li><a href="#"><i class="fab fa-linkedin"></i></a></li>                                                    
-                                   </ul>                        
-                               </div>
-                </div>           
-        </div>
-    </section>
+
+<header> 
     
-</body>
-</html>
- <!-- <header class="header"> The new POS on the Block</header>
-    <article class="article"></article>
-    <div class="container">
+    <a href="../html files/landing.html"><img id="mainlogo" src="../Images/logo.jpg"></a>
+    
+    <span class="space-between">
+        <input type="text" placeholder="Search for your next adventure here" id="search-bar">
+        <button id="cart-button" onclick="cartView()"><a href="../html files/checkout.html">checkout</a></button>
+    </span>
+    
+    <nav id="navbar">     
+        <p>|</p>      
+        <li><a href="../html files/begin.html">beginner</a></li>
+        <p>|</p>    
+        <li><a href="../html files/intermediate.html">intermediate</a></li>
+        <p>|</p>    
+        <li><a href="../html files/advanced.html">advance</a></li>
+        <p>|</p>    
+        <li><a href="../html files/career.html">career</a></li>
+        <p>|</p>    
+        <li><a href="../html files/prodev.html">professional development</a></li>
+        <p>|</p>    
+        <li><a href="../html files/fiction.html">fiction</a></li>
+        <p>|</p>    
+    </nav>
+    
+    <div id="main-banner" class="h2">
+        <h2 class="h2">ABOUT<span class="small-text">us</span></h2>
+    </div>
+    
+</header>
+
+
+
+<body>
+    
+    <div class="flex-body">
+        
+        
         <!-- spencer -->
-        <!-- <section class="spencer">
-            <img src="/aboutUsImages/spencer.jpg" alt="Spencer">
-<div class="bookwish">
-    <p class="recomend"><a href=""></a>
-
-    </p>
-</div> -->
-<!-- sam -->
-        <!-- </section>
-        <section class="sam">
-            <img src="/aboutUsImages/Sam.jpg" alt="Sam">
-            <div class="bookwish">
-                <p class="recomend"><a href=></a>
-            
-                </p>
-        </section> -->
-
-        <!-- Ryan -->
-        <!-- <section class="ryan">
-            <img src="/aboutUsImages/Ryan.jpg" alt="Ryan">
-            <div class="bookwish">
-                <p class="recomend" ><a href=""></a>
-            
-                </p>
-            </section> -->
-            <!-- Ramona -->
-        <!-- <section class="ramona">
-            <img src="/aboutUsImages/Mona.jpg" alt="Ramona">
-            <div class="bookwish">
-                <p class="recomend"><a href=""></a>
-            
-                </p>
+        <section class="profile-container">
+            <img src="../aboutUsImages/spencerbw.jpg" alt="Spencer" class="profile-image">
+            <p>Short Bio Here</p>
         </section>
-    </div> -->
+        
+        
+        <!-- sam -->
+        <section class="profile-container">
+            <img src="../aboutUsImages/Sambw.jpg" alt="Sam" class="profile-image">
+            <p>Short Bio Here</p>
+        </section>
+        
+        
+        <!-- Ryan -->
+        <section class="profile-container">
+            <img src="../aboutUsImages/Ryanbw.jpg" alt="Ryan" class="profile-image">
+            <p>Short Bio Here</p>
+        </section>
+        
+        
+        <!-- Ramona -->
+        <section class="profile-container">
+            <img src="../aboutUsImages/Monabw.jpg" alt="Ramona" class="profile-image"> 
+            <p>Short Bio Here</p>
+        </section>
+        
+        
+    </div>
+</body>
+
+<footer>
+  <p class="display-none">|</p>
+  <p>our.email@gmail.com</p>
+  <p class="display-none">|</p>
+  <p>555-555-5555</p>
+  <p class="display-none">|</p>
+  <p><a href="../html files/FAQ.html">FAQ</a></p>
+  <p class="display-none">|</p>
+  <p><a href="../html files/aboutus.html">About Us</a></p>
+  <p class="display-none">|</p>
+  <p><a href="https://www.facebook.com/GrandCircusGR/" target="_blank">Follow Us</a></p>
+  <p class="display-none">|</p>
+</footer>
+
+
+<!-- <script src="/main.js"></script>
+  <script src="/script.js"></script> -->
+  </html>

@@ -20,7 +20,7 @@ nav li {
     font-size: 15px;
 }
 
-p {
+p, .center {
     text-align: center;
 }
 
@@ -123,6 +123,13 @@ h4 {
     font-size: 20px;
     font-weight: normal;
     text-align: center;
+}
+
+.flex-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .ISBN {
@@ -283,6 +290,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     margin: 15px 0px;
+    max-width: 400px;
 }
 
 .checkout-div {
@@ -404,7 +412,13 @@ footer {
     max-width: 100px;
 }
 
+.profile-image {
+    width: 250px;
+}
 
+.profile-container {
+    margin: 50px;
+}
 
 
 
@@ -423,45 +437,13 @@ footer {
         color: lightgray;
     }
     
-    #navbar {
-        
-    }
-    
-    #mainlogo {
-        
-    }
-    
     footer {
         flex-direction: row;
         justify-content: space-around;
     }
     
-    #landingphoto {
-        
-    }
-    
-    h2 {
-        
-    }
-    
-    .small-text {
-        
-    }
-    
     .email-input {
         width: 250px;
-    }
-    
-    .sign-up-button {
-        
-    }
-    
-    h3 {
-        
-    }
-    
-    .newsletter-div {
-        
     }
     
     .input-and-button {
@@ -486,11 +468,5 @@ footer {
         right: 0px;
         top: 0px;
     }
-    
-    .space-between {
-        
-    }
-    
-    
     
 }
