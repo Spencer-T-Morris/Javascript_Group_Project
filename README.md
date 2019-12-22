@@ -25,10 +25,10 @@ minimum, this should include:
 
 ## <font color=#0000ff> :star: Project Criteria :star: </font>  
 
-- [ ] A list of products that have properties for name, category, description, and
+- [x] A list of products that have properties for name, category, description, and
       price.
-- [ ] There must at least 10 different products
-- [ ] Present a menu to the user and let them choose an item or items to purchase.
+- [x] There must at least 10 different products
+- [x] Present a menu to the user and let them choose an item or items to purchase.
 - [ ] The item(s) the user will buy will be added to a cart until they are ready
       for checkout
 - [ ] Provide a way for the user to check out and view their cart.
