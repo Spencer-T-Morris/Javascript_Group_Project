@@ -1,45 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <title>Contact Form</title>
+    <!-- <style>
+body{
+    background-image: url(/Images/mainphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    </style> -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/contactus.css">
+    <title>Contact Us Form</title>
 </head>
+
 <body>
+    <!-- brought in main header from landing page -->
+    <header>
+        <a href="../html files/landing.html"><img id="mainlogo" src="../Images/logo.jpg"></a>
+        <span class="space-between">
+            <input type="text" placeholder="Search for your next adventure here" id="search-bar">
+            <button id="cart-button" onclick="cartView()"><a href="../html files/checkout.html">checkout</a></button>
+        </span>
+        <nav id="navbar">
+            <p>|</p>
+            <li><a href="../html files/begin.html">beginner</a></li>
+            <p>|</p>
+            <li><a href="../html files/intermediate.html">intermediate</a></li>
+            <p>|</p>
+            <li><a href="../html files/advanced.html">advance</a></li>
+            <p>|</p>
+            <li><a href="../html files/career.html">career</a></li>
+            <p>|</p>
+            <li><a href="../html files/prodev.html">professional development</a></li>
+            <p>|</p>
+            <li><a href="../html files/fiction.html">fiction</a></li>
+            <p>|</p>
+            <li><a href="landing.html">home</a></li>
+            <!-- <p>|</p> -->
+        </nav>
+    </header>
+
     <div class="filter">
-    </div>
-        <div class="container">
+        <!-- </div>  think this is an extra -->
+        <div id="container">
             <!-- Description of  our newsletter  -->
             <div class="description">
                 <h1>Subscribe To Our Newsletter</h1>
-                <p>
-                   For the latest updates and specials, subscribe to our newsletter. <br>
-                   If you are looking for something that we don't have. <br>
-                   Send us a message and we will try and get it. <br><br>
-                   
-                   Thanks for shopping with us for all your IT reading needs. 
+                <p class = 'cu-paragraph'>
+                    For the latest updates and specials, subscribe to our newsletter. <br>
+                    If you are looking for something that we don't have. <br>
+                    Send us a message and we will try and get it. <br><br>
+
+                    Thanks for shopping with us for all your IT reading needs.
                 </p>
             </div>
+
             <!-- form -->
-            <div class="form">
+            <div id ="cu-form">
                 <h1>Contact-Us</h1>
                 <form>
-                  
                     <input type="text" placeholder="Name"><br>
-            
-                    <input type="text" placeholder="E-mail"><br>
-           
-                    <textarea placeholder="message"></textarea><br>
-                    
-                    <button>Subscribe</button>
-                
-                </form>
-            
-            </div>
-    
-        </div>
 
+                    <input type="text" placeholder="E-mail"><br>
+
+                    <textarea placeholder="message"></textarea><br>
+
+                    <button>Subscribe</button>
+
+                </form>
+
+            </div>
+
+        </div>
+<!-- need to figure out why footer wants to go to the top under the header  need to check the CSS -->
+<footer id="cu-footer"> <p class="display-none"></p>
+    <p>our.email@gmail.com</p>
+    <p class="display-none">|</p>
+    <p>555-555-5555</p>
+    <p class="display-none">|</p>
+    <p><a href="../html files/FAQ.html">FAQ</a></p>
+    <p class="display-none">|</p>
+    <p><a href="../html files/aboutus.html">About Us</a></p>
+    <p class="display-none">|</p>
+    <p><a href="https://www.facebook.com/GrandCircusGR/" target="_blank">Follow Us</a></p>
+    <p class="display-none">|</p>
+    <p><a href="/html files/contactus.html" target="_blank">Contact Us</a></p>
+    <p class="display-none"></p></footer> 
 </body>
+
 </html>
