@@ -18,6 +18,18 @@ like the add to cart and more feature on this one
 https://codepen.io/keroloszakaria/pen/WYGbgb
 
 ## *12/14/2019*
+
+## *12/17/2019*
+all the book pages are done. 
+All ready to style. 
+Will get started on the contact us modal 
+We need to add a link to each of the pages so that they can go back to the home page 
+
+
+[Free PDF = Pro Git](https://git-scm.com/book/en/v2)
+
+about us tutorial - https://www.youtube.com/watch?v=qYWYEnw1zTI
+
 ## *12/23/2019*
 Github notes for me 
 
@@ -97,18 +109,12 @@ do we need a disclaimer on condition
 Say that all books are brand new or all books are used etc ?
 removed PROGit from the booklist 
 
-
-## *12/17/2019*
-all the book pages are done. 
-All ready to style. 
-Will get started on the contact us modal 
-We need to add a link to each of the pages so that they can go back to the home page 
-
-
-[Free PDF = Pro Git](https://git-scm.com/book/en/v2)
-
-about us tutorial - https://www.youtube.com/watch?v=qYWYEnw1zTI
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 231 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
 **Ryan**
+
 
 
 **spencer**
