@@ -37,8 +37,9 @@ body {
 a {
     text-decoration: none;
     color: white;
+    
 }
-
+/* need to add a hover for links  */
 footer a {
     text-decoration: none;
     color: lightgray;
@@ -62,6 +63,28 @@ footer {
     height: 25px;
     list-style-type: none;
 }
+/* button in nav bar */
+#cart-button {
+    padding: 5px 15px;
+    margin: 8px 10px;
+    border-radius: 100px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#cart-button:hover, #checkout-button:hover {
+    background-color: yellowgreen;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
 #mainlogo {
     width: 250px;
@@ -84,19 +107,24 @@ h2 {
     display: flex;
     align-items: center;
 }
-h3 {
+
+/* h3 {
     margin: 85px 55px 55px 55px;
     font-size: 45px;
     display: flex;
     align-items: center;
-}
+} */
+
+/* main banner text */
 .h2 {
     margin: 0px !important;
     display: flex;
     justify-content: center;
     color: white;
 }
-.flex-body {
+
+/* profile container  */
+/* .flex-body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,28 +141,8 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-#cart-button {
-    padding: 5px 15px;
-    margin: 8px 10px;
-    border-radius: 100px;
-    font-size: 15px;
-    background-color: green;
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-}
+} */
 
-#cart-button:hover, #checkout-button:hover {
-    background-color: yellowgreen;
-}
-.space-between {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
 /*media query*/
 
 @media screen and (min-width: 600px) {
