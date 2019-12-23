@@ -348,7 +348,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    color: lightgray;
+    color: rgb(33, 82, 31);
 }
 
 .grey-input-box {
@@ -414,10 +414,15 @@ footer {
 
 .profile-image {
     width: 250px;
+    display: flex;
+   justify-content: center;
 }
 
 .profile-container {
-    margin: 50px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -434,7 +439,7 @@ footer {
     
     footer a {
         text-decoration: none;
-        color: lightgray;
+        color: rgb(33, 82, 31);;
     }
     
     footer {
