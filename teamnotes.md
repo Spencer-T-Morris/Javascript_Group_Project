@@ -104,6 +104,32 @@ Fast-forward
  create mode 100644 aboutUsImages/spencerbw.jpg
  create mode 100644 html files/FAQ.html
  create mode 100644 html files/checkout.html
+ $ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 3 and 9 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+
+ramonas@ISops31 MINGW64 /c/source/Javascript_Group_Project (master)
+$ git pull
+Merge made by the 'recursive' strategy.
+ CSS/aboutus.css              | 191 +++++++++++++++++++++++++++++++++++++++++++
+ CSS/style.css                |  11 ++-
+ html files/FAQ.html          |  24 +++---
+ html files/aboutus.html      |  77 ++++++++++-------
+ html files/advanced.html     |  24 +++---
+ html files/begin.html        |  24 +++---
+ html files/career.html       |   4 +-
+ html files/checkout.html     |   4 +-
+ html files/fiction.html      |  24 +++---
+ html files/intermediate.html |   4 +-
+ html files/landing.html      |   2 +
+ html files/prodev.html       |   4 +-
+ teamnotes.md                 |   2 +
+ 13 files changed, 315 insertions(+), 80 deletions(-)
+
  
 do we need a disclaimer on condition 
 Say that all books are brand new or all books are used etc ?
