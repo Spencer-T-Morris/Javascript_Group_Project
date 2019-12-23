@@ -414,10 +414,15 @@ footer {
 
 .profile-image {
     width: 250px;
+    display: flex;
+   justify-content: center;
 }
 
 .profile-container {
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
