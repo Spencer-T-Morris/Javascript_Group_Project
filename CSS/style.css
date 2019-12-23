@@ -417,12 +417,18 @@ footer {
     display: flex;
    justify-content: center;
 }
-
+.image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .profile-container {
     margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: yellowgreen;
 }
 
 
