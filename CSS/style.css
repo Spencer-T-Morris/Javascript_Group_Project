@@ -288,7 +288,7 @@ h4 {
     padding: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 15px 15px;
     flex: 1;
     max-width: 400px;
