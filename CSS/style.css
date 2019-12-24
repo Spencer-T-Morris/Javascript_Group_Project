@@ -349,7 +349,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    color: rgb(33, 82, 31);
+    color: lightgrey;
 }
 
 .grey-input-box {
@@ -440,7 +440,7 @@ footer {
     
     footer a {
         text-decoration: none;
-        color: rgb(33, 82, 31);;
+        color: lightgrey;
     }
     
     footer {

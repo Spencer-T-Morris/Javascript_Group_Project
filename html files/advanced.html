@@ -42,123 +42,159 @@
 </header>
 
 <body> 
-  
   <div class="flex-body">
+    
+    
     
     <!-- book 1 -->
     
-    <div class="book-section">
-      <img src="../booklist/images/eloJS.jpg" alt="Eloquent JavaScript" srcset="" class="book-thumbnail"> 
-      <h3 class="title">Eloquent JavaScript</h3>
-      <p class="ISBN">ISBN# 9781492071198</p>
-      <p class="author">Marijn Haverbeke</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>       
-      <p class="price">$18.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>
-    
-    
-    
-    <!-- book 2 -->
-    
-    <div class="book-section">
-      <img src="../booklist/images/perspectivecode.jpg" srcset="" class="book-thumbnail">  
-      <h3 class="title">Perspectives on Predictive Coding and Other Advanced Search Methods for the Legal Practitioner</h3>
-      <p class="ISBN">ISBN# 1634256573</p>
-      <p class="author">American Bar Association</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">DESCRIPTION TO ADD</p>       
-      <p class="price">$13.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>
-    
-    
-    
-    <!-- book 3 -->
-    
-    <div class="book-section">
-      <img src="../booklist/images/RegExcookbook.jpg" alt="Eloquent JavaScript" srcset="" class="book-thumbnail"> 
-      <h3 class="title">Regular Expressions Cookbook: Detailed Solutions in Eight Programming Languages</h3>
-      <p class="ISBN">ISBN# 1449319432</p>
-      <p class="author">Jan Goyvaerts</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">Take the guesswork out of using regular expressions. With more than 140 practical recipes, this cookbook provides everything you need to solve a wide range of real-world problems. Novices will learn basic skills and tools, and programmers and experienced users will find a wealth of detail. Each recipe provides samples you can use right away.</p>       
-      <p class="price">$24.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>
-    
-    
-    
-    <!-- book 4 -->
-    
-    <div class="book-section">
-      <img src="../booklist/images/extremeprogramming.jpg" alt="extremeprogramming" srcset="" class="book-thumbnail"> 
-      <h3 class="title">Extreme Programming Explained: Embrace Change, Second Edition</h3>
-      <p class="ISBN">ISBN# 0321278658</p>
-      <p class="author">Cynthia Andres, Kent Beck</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">DESCRIPTION TO ADD</p>       
-      <p class="price">$28.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div> 
-    
-    
-    
-    <!-- book 5 -->
-    
-    <div class="book-section">
-      <img src="../booklist/images/refactoring.jpg" alt="Refactoring Improving the Design" srcset="" class="book-thumbnail"> 
-      <h3 class="title">Refactoring Improving the Design of Existing Code</h3>
-      <p class="ISBN">ISBN# 0134757599</p>
-      <p class="author">Martin Fowler,  Kent Beck</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant.</p>       
-      <p class="price">$38.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>
-    
+    <div class="book-section"
+    data-title =      "Eloquent JavaScript" 
+    data-author =     "Marijn Haverbeke" 
+    data-category =   "Advanced" 
+    data-ISBN =       "9781492071198"
+    data-format =     "Paperback"
+    data-price =      "23.99"
+    data-receipt =    "ELQUNT JVASCRPT">
+    <img src="../booklist/images/eloJS.jpg" alt="Eloquent JavaScript" srcset="" class="book-thumbnail"> 
+    <h3 class="title">Eloquent JavaScript</h3>
+    <p class="ISBN">ISBN# 9781492071198</p>
+    <p class="author">Marijn Haverbeke</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>       
+    <p class="price">$18.99</p> 
+    <button class="add-to-cart-button" onclick = "addBook('9781492071198')">ADD TO CART</button>
   </div>
   
+  
+  
+  <!-- book 2 -->
+  
+  <div class="book-section"
+  data-title =      "Perspectives on Predictive Coding and Other Advanced Search Methods for the Legal Practitioner" 
+  data-author =     "Jason R. Baron, Michael D. Berman, Ralph C. Losey" 
+  data-category =   "Advanced"
+  data-ISBN =       "1634256573"
+  data-format =     "Kindle"
+  data-price =      "51.78"
+  data-receipt =    "PRSP PRDCT CDNG">
+  <img src="../booklist/images/perspectivecode.jpg" srcset="" class="book-thumbnail">  
+  <h3 class="title">Perspectives on Predictive Coding and Other Advanced Search Methods for the Legal Practitioner</h3>
+  <p class="ISBN">ISBN# 1634256573</p>
+  <p class="author">American Bar Association</p>
+  <select name="format" class="grey-dropdown">
+    <option value="soft">Paperback</option>
+    <option value="hard">HardCover</option>
+    <option value="digital">E-Book</option>
+  </select>
+  <p class="description">DESCRIPTION TO ADD</p>       
+  <p class="price">$13.99</p> 
+  <button class="add-to-cart-button" onclick = "addBook('1634256573')">ADD TO CART</button>
+</div>
+
+
+
+<!-- book 3 -->
+
+<div class="book-section"
+data-title =      "Regular Expressions Cookbook: Detailed Solutions in Eight Programming Languages" 
+data-author =     "Steven Levithan, Jan Goyvaerts" 
+data-category =   "Advanced" 
+data-ISBN =       "1449319432" 
+data-format =     "Paperback"
+data-price =      "30.99"
+data-receipt =    "REG XPRES COOKB">
+<img src="../booklist/images/RegExcookbook.jpg" alt="Eloquent JavaScript" srcset="" class="book-thumbnail"> 
+<h3 class="title">Regular Expressions Cookbook: Detailed Solutions in Eight Programming Languages</h3>
+<p class="ISBN">ISBN# 1449319432</p>
+<p class="author">Jan Goyvaerts</p>
+<select name="format" class="grey-dropdown">
+  <option value="soft">Paperback</option>
+  <option value="hard">HardCover</option>
+  <option value="digital">E-Book</option>
+</select>
+<p class="description">Take the guesswork out of using regular expressions. With more than 140 practical recipes, this cookbook provides everything you need to solve a wide range of real-world problems. Novices will learn basic skills and tools, and programmers and experienced users will find a wealth of detail. Each recipe provides samples you can use right away.</p>       
+<p class="price">$24.99</p> 
+<button class="add-to-cart-button" onclick = "addBook('1449319432')">ADD TO CART</button>
+</div>
+
+
+
+<!-- book 4 -->
+
+<div class="book-section"
+data-title =      "Extreme Programming Explained: Embrace Change, 2nd Edition"
+data-author =     "Cynthia Andres, Kent Beck"
+data-category =   "Advanced" 
+data-ISBN =       "0321278658"
+data-format =     "Paperback"
+data-price =      "25.99"
+data-receipt =    "XTREM PROG XPLN">
+<img src="../booklist/images/extremeprogramming.jpg" alt="extremeprogramming" srcset="" class="book-thumbnail"> 
+<h3 class="title">Extreme Programming Explained: Embrace Change, Second Edition</h3>
+<p class="ISBN">ISBN# 0321278658</p>
+<p class="author">Cynthia Andres, Kent Beck</p>
+<select name="format" class="grey-dropdown">
+  <option value="soft">Paperback</option>
+  <option value="hard">HardCover</option>
+  <option value="digital">E-Book</option>
+</select>
+<p class="description">DESCRIPTION TO ADD</p>       
+<p class="price">$28.99</p> 
+<button class="add-to-cart-button" onclick = "addBook('0321278658')">ADD TO CART</button>
+</div> 
+
+
+
+<!-- book 5 -->
+
+<div class="book-section"
+data-title =      "Refactoring: Improving the Design of Existing Code"
+data-author =     "Martin Fowler, Kent Beck" 
+data-category =   "Advanced" 
+data-ISBN =       "0134757599" 
+data-format =     "Hardcover"
+data-price =      "31.99"
+data-receipt =    "RFCTRNG: IMPROV">
+<img src="../booklist/images/refactoring.jpg" alt="Refactoring Improving the Design" srcset="" class="book-thumbnail"> 
+<h3 class="title">Refactoring Improving the Design of Existing Code</h3>
+<p class="ISBN">ISBN# 0134757599</p>
+<p class="author">Martin Fowler,  Kent Beck</p>
+<select name="format" class="grey-dropdown">
+  <option value="soft">Paperback</option>
+  <option value="hard">HardCover</option>
+  <option value="digital">E-Book</option>
+</select>
+<p class="description">Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant.</p>       
+<p class="price">$38.99</p> 
+<button class="add-to-cart-button" onclick = "addBook('0134757599')">ADD TO CART</button>
+</div>
+
+</div>
+
+</body>
+
 </body>
 
 <footer>
   <p class="display-none"></p>
-    <p>our.email@gmail.com</p>
-    <p class="display-none">|</p>
-    <p>555-555-5555</p>
-    <p class="display-none">|</p>
-    <p><a href="../html files/FAQ.html">FAQ</a></p>
-    <p class="display-none">|</p>
-    <p><a href="../html files/aboutus.html">About Us</a></p>
-    <p class="display-none">|</p>
-    <p><a href="https://www.facebook.com/GrandCircusGR/" target="_blank">Follow Us</a></p>
-    <p class="display-none">|</p>
-    <p><a href="/html files/contactus.html" target="_blank">Contact Us</a></p>
-    <p class="display-none"></p>
+  <p>our.email@gmail.com</p>
+  <p class="display-none">|</p>
+  <p>555-555-5555</p>
+  <p class="display-none">|</p>
+  <p><a href="../html files/FAQ.html">FAQ</a></p>
+  <p class="display-none">|</p>
+  <p><a href="../html files/aboutus.html">About Us</a></p>
+  <p class="display-none">|</p>
+  <p><a href="https://www.facebook.com/GrandCircusGR/" target="_blank">Follow Us</a></p>
+  <p class="display-none">|</p>
+  <p><a href="/html files/contactus.html" target="_blank">Contact Us</a></p>
+  <p class="display-none"></p>
 </footer>
 
-
-<!-- <script src="/main.js"></script>
-  <script src="/script.js"></script> -->
-  </html>
+<script src="../script.js"></script>
+</html>
