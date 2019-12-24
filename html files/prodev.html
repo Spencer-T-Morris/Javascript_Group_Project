@@ -12,7 +12,7 @@
 
 <header> 
   
-  <a href="../html files/landing.html"><img id="mainlogo" src="../Images/logo.jpg"></a>
+  <a href="../html files/index.html"><img id="mainlogo" src="../Images/logo.jpg"></a>
   
   <span class="space-between">
     <input type="text" placeholder="Search for your next adventure here" id="search-bar">
@@ -45,101 +45,138 @@
   
   <div class="flex-body">
     
+    
+    
     <!-- book 1 -->
     
-    <div class="book-section">
-      <img src="../booklist/images/TDD.jpg" alt="Test Driven Development" srcset="" class="book-thumbnail">  
-      <h3 class="title">TEST DRIVEN DEVELOPMENT: BY EXAMPLE</h3>
-      <p class="ISBN">ISBN# 0321146530 </p>
-      <p class="author">Kent Beck</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">Clean code that works--now. This is the seeming contradiction that lies behind much of the pain of programming. Test-driven development replies to this contradiction with a paradox--test the program before you write it.</p>       
-      <p class="price">$17.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>   
-    
-    
-    
-    <!-- book 2 -->
-    
-    <div class="book-section">
-      <img src="../booklist/images/Pragcoder.jpg" alt="The Pragmatic Programmer" srcset="" class="book-thumbnail">  
-      <h3 class="title">THE PRAGMATIC PROGRAMMER: YOUR JOURNEY TO MASTERY, 20TH ANNIVERSARY EDITION, 2ND EDITION</h3>
-      <p class="ISBN">ISBN# 9780135956977</p>
-      <p class="author">Andrew Hunt, David Thomas</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">This book is a great read to fill the gaps that have been missed by all other books on this list. The authors will show you what it takes to master our trade, and hopefully they will equipe you with skill and idea to avoid the common pitfalls.</p>       
-      <p class="price">$32.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>
-    
-    
-    
-    <!-- book 3 -->
-    
-    <div class="book-section">
-      <img src="../booklist/images/CleanCoder.jpg" alt="The Clean Coder" srcset="" class="book-thumbnail">  
-      <h3 class="title">THE CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS</h3>
-      <p class="ISBN">ISBN# 9780132542913</p>
-      <p class="author">Robert C. Martin</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">Compared to Law, Medicine, Engineering, Accounting, Programming is a relatevely easy field to enter. There're countless success stories of self-thought programmers. This book introduces to what a Professional Programmer is. The author shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act.</p>       
-      <p class="price">$19.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>
-    
-    
-    
-    <!-- book 4 -->
-    
-    <div class="book-section">
-      <img src="../booklist/images/cleancode.jpg" alt="Clean Code" srcset="" class="book-thumbnail">  
-      <h3 class="title">CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP</h3>
-      <p class="ISBN">ISBN# 9780132542913</p>
-      <p class="author">Robert C. Martin</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. " Another book by Uncle Bob, it is an opinionated book, but full of wonderful resources and advice on how to improve your code.</p>       
-      <p class="price">$19.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>
-    
-    
-    
-    <!-- book 5 -->
-    
-    <div class="book-section">
-      <img src="../booklist/images/Peopleware.jpg" alt="Peopleware" srcset="" class="book-thumbnail">  
-      <h3 class="title">PEOPLEWARE: PRODUCTIVE PROJECTS AND TEAMS</h3>
-      <p class="ISBN">ISBN# 9780133440706</p>
-      <p class="author">Tim Lister, Tom DeMarco</p>
-      <select name="format" class="grey-dropdown">
-        <option value="soft">Paperback</option>
-        <option value="hard">HardCover</option>
-        <option value="digital">E-Book</option>
-      </select>
-      <p class="description">IT management is your ultimate goal? Read this book! Written in the 80s,it outlines the major issues with current management practices in software development field. It's amazing that most companies still make the same mistakes. If you won't move into management, at least this book will help you ask the right questions and look for red flags next time you're looking for a new job. Personally, I cannot chuckle inside when I hear "Open space office"</p>       
-      <p class="price">$11.99</p> 
-      <button class="add-to-cart-button">ADD TO CART</button>
-    </div>
-    
-  </div>
+    <div class="book-section"
+    data-title = "Test Driven Development: By Example" 
+    data-author =     "Kent Beck"
+    data-category =   "Professional Development"
+    data-ISBN =       "0321146530"
+    data-format =     "Paperback"
+    data-price =      "35.99"
+    data-receipt =    "TEST DRVN DSIGN">
+    <img src="../booklist/images/TDD.jpg" alt="Test Driven Development" srcset="" class="book-thumbnail">  
+    <h3 class="title">TEST DRIVEN DEVELOPMENT: BY EXAMPLE</h3>
+    <p class="ISBN">ISBN# 0321146530 </p>
+    <p class="author">Kent Beck</p>
+    <select name="format" class="grey-dropdown">
+      <option value="soft">Paperback</option>
+      <option value="hard">HardCover</option>
+      <option value="digital">E-Book</option>
+    </select>
+    <p class="description">Clean code that works--now. This is the seeming contradiction that lies behind much of the pain of programming. Test-driven development replies to this contradiction with a paradox--test the program before you write it.</p>       
+    <p class="price">$17.99</p> 
+    <button class="add-to-cart-button" onclick = "addBook('0321146530')" >ADD TO CART</button>
+  </div>   
   
+  
+  
+  <!-- book 2 -->
+  
+  <div class="book-section"
+  data-title =      "The Pragmatic Programmer"
+  data-author =     "Andrew Hunt, David Thomas" 
+  data-category =   "Professional Development" 
+  data-ISBN =       "9780135956977"
+  data-format =     "Hardcover"
+  data-price =      "28.99"
+  data-receipt =    "PRAGMA PROGRMMR">
+  <img src="../booklist/images/Pragcoder.jpg" alt="The Pragmatic Programmer" srcset="" class="book-thumbnail">  
+  <h3 class="title">THE PRAGMATIC PROGRAMMER: YOUR JOURNEY TO MASTERY, 20TH ANNIVERSARY EDITION, 2ND EDITION</h3>
+  <p class="ISBN">ISBN# 9780135956977</p>
+  <p class="author">Andrew Hunt, David Thomas</p>
+  <select name="format" class="grey-dropdown">
+    <option value="soft">Paperback</option>
+    <option value="hard">HardCover</option>
+    <option value="digital">E-Book</option>
+  </select>
+  <p class="description">This book is a great read to fill the gaps that have been missed by all other books on this list. The authors will show you what it takes to master our trade, and hopefully they will equipe you with skill and idea to avoid the common pitfalls.</p>       
+  <p class="price">$32.99</p> 
+  <button class="add-to-cart-button" onclick = "addBook('9780135956977')">ADD TO CART</button>
+</div>
+
+
+
+<!-- book 3 -->
+
+<div class="book-section"
+data-title =      "The Clean Coder: A Code of Conduct for Professional Programmers" 
+data-author =     "Robert C. Martin" 
+data-category =   "Professional Development" 
+data-ISBN =       "9780132542913" 
+data-format =     "Paperback"
+data-price =      "25.99"
+data-receipt =    "CLEAN CODR COND">
+<img src="../booklist/images/CleanCoder.jpg" alt="The Clean Coder" srcset="" class="book-thumbnail">  
+<h3 class="title">THE CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS</h3>
+<p class="ISBN">ISBN# 9780132542913</p>
+<p class="author">Robert C. Martin</p>
+<select name="format" class="grey-dropdown">
+  <option value="soft">Paperback</option>
+  <option value="hard">HardCover</option>
+  <option value="digital">E-Book</option>
+</select>
+<p class="description">Compared to Law, Medicine, Engineering, Accounting, Programming is a relatevely easy field to enter. There're countless success stories of self-thought programmers. This book introduces to what a Professional Programmer is. The author shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act.</p>       
+<p class="price">$19.99</p> 
+<button class="add-to-cart-button" onclick = "addBook('9780132542913')">ADD TO CART</button>
+</div>
+
+
+
+<!-- book 4 -->
+
+<div class="book-section"
+data-title =      "Clean Code: A Handbook of Agile Software Craftsmanship" 
+data-author =     "Robert C. Martin"
+data-category =   "Professional Development"
+data-ISBN =       "9780132542913"
+data-format =     "Paperback"
+data-price =      "29.99"
+data-receipt =    "CLEAN CODE HAND">
+<img src="../booklist/images/cleancode.jpg" alt="Clean Code" srcset="" class="book-thumbnail">  
+<h3 class="title">CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP</h3>
+<p class="ISBN">ISBN# 9780132542913</p>
+<p class="author">Robert C. Martin</p>
+<select name="format" class="grey-dropdown">
+  <option value="soft">Paperback</option>
+  <option value="hard">HardCover</option>
+  <option value="digital">E-Book</option>
+</select>
+<p class="description">Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. " Another book by Uncle Bob, it is an opinionated book, but full of wonderful resources and advice on how to improve your code.</p>       
+<p class="price">$19.99</p> 
+<button class="add-to-cart-button" onclick = "addBook('9780132542913')">ADD TO CART</button>
+</div>
+
+
+
+<!-- book 5 -->
+
+<div class="book-section"
+data-title =      "Peopleware: Productive Projects and Teams, 3rd Edition" 
+data-author =     "Tim Lister, Tom DeMarco" 
+data-category =   "Professional Development" 
+data-ISBN =       "9780133440706"
+data-format =     "Paperback"
+data-price =      "27.99"
+data-receipt =    "PPLWR PROD PROJ">
+<img src="../booklist/images/Peopleware.jpg" alt="Peopleware" srcset="" class="book-thumbnail">  
+<h3 class="title">PEOPLEWARE: PRODUCTIVE PROJECTS AND TEAMS</h3>
+<p class="ISBN">ISBN# 9780133440706</p>
+<p class="author">Tim Lister, Tom DeMarco</p>
+<select name="format" class="grey-dropdown">
+  <option value="soft">Paperback</option>
+  <option value="hard">HardCover</option>
+  <option value="digital">E-Book</option>
+</select>
+<p class="description">IT management is your ultimate goal? Read this book! Written in the 80s,it outlines the major issues with current management practices in software development field. It's amazing that most companies still make the same mistakes. If you won't move into management, at least this book will help you ask the right questions and look for red flags next time you're looking for a new job. Personally, I cannot chuckle inside when I hear "Open space office"</p>       
+<p class="price">$11.99</p> 
+<button class="add-to-cart-button" onclick = "addBook('9780133440706')">ADD TO CART</button>
+</div>
+
+</div>
+
 </body>
 
 
@@ -160,7 +197,6 @@
 </footer>
 
 
-<!-- <script src="/main.js"></script>
-  <script src="/script.js"></script> -->
+<script src="../script.js"></script>
 </body>
 </html>
