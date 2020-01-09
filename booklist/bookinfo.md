@@ -14,7 +14,7 @@ book template
 
 ## **Beginner**
 
-1. [Coding for Dummies](https://www.oreilly.com/library/view/coding-for-dummies/9781118951309/)  
+<font color=#green>1. [Coding for Dummies](https://www.oreilly.com/library/view/coding-for-dummies/9781118951309/)  
 ***Description*** pic  
 No coding experience is required for Coding For Dummies, your one-stop guide to building a foundation of knowledge in writing computer code for web, application, and software development. It doesn't matter if you've dabbled in coding or never written a line of code, this book guides you through the basics. Using foundational web development languages like HTML, CSS, and JavaScript, it explains in plain English how coding works and why it's needed.
 Online exercises developed by Codecademy, a leading online code training site, help hone coding skills and demonstrate results as you practice.
@@ -68,10 +68,10 @@ Release Date: February 2017
 ISBN: 9780134653914  
 price:  
 format:
-
+</font>
 ## **Intermediate**  
 
-1. [You Don't Know Js (6 book series)](https://www.oreilly.com/playlists/70e6d999-1cef-49f7-84c0-fd6cf59b167c/)   
+<font color=#green>1. [You Don't Know Js (6 book series)](https://www.oreilly.com/playlists/70e6d999-1cef-49f7-84c0-fd6cf59b167c/)   
 ***Description*** pic  
 a. You Don't Know JS: this & Object Prototypes  
 b. You Don't Know JS: ES6 & Beyond  
@@ -107,7 +107,8 @@ Author:Terra Vanzant Stern, PhD
 Published December 15, 2016
 ISBN 9781498739160
 price:
-format:
+format:  
+
 [Javascript & Jquery-Interactive front-end web development](http://javascriptbook.com/)
 ***Description***
 This is not your average programming book.
@@ -130,11 +131,11 @@ Author: Jon Duckett
 Published November 8, 2011
 ISBN 1118008189
 price:
-format
+format</font>
 
 ## **Advanced**  
 
-1.[Eloquent JavaScript](https://www.oreilly.com/library/view/eloquent-javascript-3rd/9781492071198/)  
+<font color=#green>1.[Eloquent JavaScript](https://www.oreilly.com/library/view/eloquent-javascript-3rd/9781492071198/)  
 ***Description***  pic   
 JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
 
@@ -195,11 +196,11 @@ Release Date: November 30, 2018
 ISBN-10: 0134757599  
 Price:  
 Format:
-
+</font>
 
 ## **Career**
 
-1. [The Complete Software Developer's Career Guide: How to Learn Programming Languages Quickly, Ace Your Programming Interview, and Land Your Software Developer Dream Job](https://www.amazon.com/Complete-Software-Developers-Career-Guide/dp/0999081411)   
+<font color=#green>1. [The Complete Software Developer's Career Guide: How to Learn Programming Languages Quickly, Ace Your Programming Interview, and Land Your Software Developer Dream Job](https://www.amazon.com/Complete-Software-Developers-Career-Guide/dp/0999081411)   
 ***Description:*** pic   
 
 Technical Knowledge Alone Isn't Enough - Increase Your Income by Leveling Up Your Soft Skills
@@ -271,10 +272,10 @@ Release Date: October 2006
 ISBN: 0321482751  
 Price:  
 Format:  
-
+</font>
 ## **Professional Development**   
 
-1. [Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)  
+<font color=#green>1. [Test Driven Development:By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/)  
 ***Description*** pic   
 Clean code that works--now. This is the seeming contradiction that lies behind much of the pain of programming. Test-driven development replies to this contradiction with a paradox--test the program before you write it.
 A new idea? Not at all. Since the dawn of computing, programmers have been specifying the inputs and outputs before programming precisely. Test-driven development takes this age-old idea, mixes it with modern languages and programming environments, and cooks up a tasty stew guaranteed to satisfy your appetite for clean code that works--now.
@@ -349,11 +350,11 @@ Format:
 [Free PDF Working Effectively with Legacy Code](http://ptgmedia.pearsoncmg.com/images/9780131177055/samplepages/0131177052.pdf)  
 
 
-
+</font>
 
 
 **Fiction**
-
+<font color=#green>
 1. [The Phoenix Project](https://www.amazon.com/gp/product/0988262592/ref=x_gr_w_bb_glide_sin?ie=UTF8&tag=x_gr_w_bb_glide_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0988262592&SubscriptionId=1MGPYB6YW3HWK55XCGG2)  
 ***Description***  pic  
 Maxine wrangles with an ever-growing to-do list, every lead turning into a dead end:
@@ -419,7 +420,7 @@ Publisher:  Berkley Books
 Release Date:  2005 by  
 ISBN 0425198685  
 Price:  
-Format:  
+Format:  </font>
 
 
 
